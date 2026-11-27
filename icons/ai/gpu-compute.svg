@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title desc">
+  <title id="title">GPU computing</title><desc id="desc">Parallel accelerators process batches of EDA workloads.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <rect x="12" y="16" width="96" height="58" rx="6" fill="#2563a6" fill-opacity=".10" stroke="#2563a6"/>
+    <circle cx="41" cy="45" r="18" fill="#7756a5" fill-opacity=".12" stroke="#7756a5"/>
+    <circle cx="41" cy="45" r="7" stroke="#7756a5"/><path d="M41 27v11M41 52v11M23 45h11M48 45h11M28 32l8 8M46 50l8 8M54 32l-8 8M36 50l-8 8" stroke="#7756a5"/>
+    <rect x="70" y="29" width="25" height="11" rx="2" fill="#168579" fill-opacity=".15" stroke="#168579"/>
+    <rect x="70" y="50" width="25" height="11" rx="2" fill="#168579" fill-opacity=".15" stroke="#168579"/>
+    <path d="M18 11v5M30 11v5M90 11v5M102 11v5M18 74v5M30 74v5M90 74v5M102 74v5" stroke="#526579"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title desc">
+  <title id="title">Logic synthesis</title><desc id="desc">Boolean logic mapped into a compact gate-level netlist.</desc>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#526579"/></marker></defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M8 26h20M8 58h20" stroke="#526579"/>
+    <path d="M28 14c18 0 28 12 28 28S46 70 28 70c7-18 7-38 0-56Z" fill="#2563a6" fill-opacity=".14" stroke="#2563a6"/>
+    <path d="M56 42h15" stroke="#526579" marker-end="url(#arrow)"/>
+    <path d="M73 27h12c13 0 22 7 22 15s-9 15-22 15H73c6-10 6-20 0-30Z" fill="#168579" fill-opacity=".14" stroke="#168579"/>
+    <path d="M107 42h8M80 27V17M80 57v10" stroke="#526579"/>
+    <circle cx="80" cy="17" r="2.5" fill="#7756a5" stroke="none"/><circle cx="80" cy="67" r="2.5" fill="#7756a5" stroke="none"/>
+  </g>
+</svg>

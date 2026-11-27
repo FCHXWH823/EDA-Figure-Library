@@ -1,0 +1,184 @@
+<mxlibrary>
+[
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Specification\" style=\"shape=document;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Specification"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Architecture\" style=\"shape=swimlane;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;startSize=28;swimlaneFillColor=#FFFFFF;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Architecture"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"RTL design\" style=\"shape=note;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "RTL design"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"High-level synthesis\" style=\"shape=hexagon;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "High-level synthesis"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Logic synthesis\" style=\"shape=process;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Logic synthesis"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Gate-level netlist\" style=\"shape=process;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Gate-level netlist"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Design constraints\" style=\"shape=note;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Design constraints"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Functional verification\" style=\"shape=process;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Functional verification"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Timing waveform\" style=\"shape=parallelogram;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Timing waveform"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Formal verification\" style=\"shape=rhombus;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Formal verification"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Floorplanning\" style=\"shape=rectangle;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Floorplanning"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Placement\" style=\"shape=rectangle;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Placement"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Clock tree synthesis\" style=\"shape=triangle;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Clock tree synthesis"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Routing\" style=\"shape=process;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Routing"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Physical verification\" style=\"shape=rhombus;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Physical verification"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"GDSII layout\" style=\"shape=cylinder3;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "GDSII layout"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Tape-out\" style=\"shape=document;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#E6F5F1;strokeColor=#16736A;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Tape-out"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"AI agent\" style=\"shape=hexagon;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "AI agent"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Evolutionary optimization\" style=\"shape=ellipse;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Evolutionary optimization"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Design space exploration\" style=\"shape=parallelogram;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Design space exploration"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"GPU computing\" style=\"shape=process;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "GPU computing"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Cross-stage feedback\" style=\"shape=parallelogram;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Cross-stage feedback"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Feedback loop\" style=\"shape=ellipse;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "Feedback loop"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"PPA metrics\" style=\"shape=rhombus;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#F0E9FA;strokeColor=#7756A5;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 72,
+    "aspect": "fixed",
+    "title": "PPA metrics"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"\" edge=\"1\" parent=\"1\" style=\"endArrow=block;endFill=1;rounded=1;strokeWidth=2;strokeColor=#526579;dashed=0;\"&gt;&lt;mxGeometry as=\"geometry\" relative=\"1\"&gt;&lt;mxPoint as=\"sourcePoint\" x=\"0\" y=\"12\" /&gt;&lt;mxPoint as=\"targetPoint\" x=\"120\" y=\"12\" /&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 120,
+    "h": 24,
+    "title": "Artifact handoff"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"\" edge=\"1\" parent=\"1\" style=\"endArrow=block;endFill=1;rounded=1;strokeWidth=2;strokeColor=#B45309;dashed=1;\"&gt;&lt;mxGeometry as=\"geometry\" relative=\"1\"&gt;&lt;mxPoint as=\"sourcePoint\" x=\"0\" y=\"12\" /&gt;&lt;mxPoint as=\"targetPoint\" x=\"120\" y=\"12\" /&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 120,
+    "h": 24,
+    "title": "Feedback / iteration"
+  }
+]
+</mxlibrary>

@@ -1,0 +1,27 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{eda-style.tex}
+\begin{document}
+\begin{tikzpicture}[node distance=6mm and 7mm]
+  \node[front] (spec) {Specification};
+  \node[front, right=of spec] (arch) {Architecture};
+  \node[front, right=of arch] (hls) {Optional HLS};
+  \node[front, right=of hls] (rtl) {RTL design};
+  \node[front, right=of rtl] (synth) {Logic synthesis};
+  \node[verify, below=of rtl] (sim) {Functional verification};
+  \node[verify, below=of synth] (formal) {Formal\\verification};
+  \node[physical, below=23mm of spec] (floor) {Floorplanning};
+  \node[physical, right=of floor] (place) {Placement};
+  \node[physical, right=of place] (cts) {Clock tree synthesis};
+  \node[physical, right=of cts] (route) {Routing};
+  \node[physical, right=of route] (signoff) {Physical verification};
+  \node[release, below=of signoff] (gds) {GDSII and tape-out};
+
+  \foreach \from/\to in {spec/arch,arch/hls,hls/rtl,rtl/synth,rtl/sim,
+    synth/formal,floor/place,place/cts,cts/route,route/signoff,signoff/gds}
+    \draw[edaflow] (\from) -- (\to);
+  \draw[edaflow] (arch.north) -- ++(0,5mm) -| (rtl.north);
+  \draw[edaflow] (synth.east) -- ++(5mm,0) |- ([yshift=3mm]floor.north) -- (floor.north);
+  \draw[edafeedback] (signoff.south west) -- ++(-4mm,-5mm)
+    -| node[pos=.3,below,edalabel] {closure feedback} (cts.south);
+\end{tikzpicture}
+\end{document}

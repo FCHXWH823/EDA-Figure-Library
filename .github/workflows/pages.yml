@@ -1,0 +1,51 @@
+name: Visual library
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install figure validators
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils texlive-pictures texlive-latex-extra
+      - name: Check gallery files and publication figures
+        run: |
+          python3 scripts/build.py --check --site "$RUNNER_TEMP/eda-figure-site"
+          python3 scripts/validate.py
+      - name: Compile TikZ templates
+        working-directory: tikz
+        run: |
+          for name in eda-flow agentic-eda-flow cmos-inverter; do
+            pdflatex -halt-on-error -interaction=nonstopmode -output-directory="$RUNNER_TEMP" "$name.tex" || exit 1
+          done
+      - name: Upload GitHub Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/eda-figure-site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    needs: build
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Deploy gallery
+        id: publish
+        uses: actions/deploy-pages@v4

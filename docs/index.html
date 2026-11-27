@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search editable illustrations for EDA and AI-assisted hardware design.">
+  <title>EDA Figure Library</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell nav">
+      <a class="brand" href="./">EDA Figure Library</a>
+      <nav aria-label="Repository">
+        <a href="https://github.com/FCHXWH823/EDA-Figure-Library">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="heading">
+      <div>
+        <p class="eyebrow">Research graphics for hardware design</p>
+        <h1 id="heading">EDA Figure Library</h1>
+        <p class="lead">Editable figures for digital chip design, from specification and architecture through tape-out and agentic optimization.</p>
+        <p class="tools"><a href="../drawio/eda-shapes.xml" download>Draw.io library</a><a href="https://github.com/FCHXWH823/EDA-Figure-Library/tree/main/tikz">TikZ templates</a></p>
+      </div>
+      <a class="featured" href="../examples/eda-flow.svg">
+        <img src="../examples/eda-flow.svg" alt="Digital ASIC flow, from intent to silicon" width="1500" height="690">
+        <span>Open the complete EDA flow</span>
+      </a>
+    </section>
+    <section aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Visual gallery</h2>
+      <form class="filters" id="filters" hidden role="search">
+        <label>Search assets <input id="query" type="search" placeholder="Try clock tree, GPU or CMOS" aria-controls="gallery"></label>
+        <label>Category <select id="category" aria-controls="gallery">
+          <option value="">All categories</option>
+          <option value="examples">Example figures</option>
+          <option value="frontend">Specification, RTL and synthesis</option>
+          <option value="verification">Functional and formal verification</option>
+          <option value="backend">Physical design and tape-out</option>
+          <option value="ai">AI and optimization</option>
+          <option value="external">Third-party assets</option>
+        </select></label>
+        <button type="reset">Clear</button>
+      </form>
+      <p id="result-count" class="result" role="status"></p>
+      <div class="cards" id="gallery">
+        <article class="card" data-category="examples" data-search="complete eda flow eda flow digital asic design from specification through foundry handoff. includes optional hls, parallel verification and closure feedback. example figures cc-by-4.0 ">
+  <a class="preview" href="../examples/eda-flow.svg"><img loading="lazy" src="../examples/eda-flow.svg" alt="Complete EDA flow"></a>
+  <div class="card-body"><p class="category">Example figures</p><h3>Complete EDA flow</h3><p>Digital ASIC design from specification through foundry handoff. Includes optional HLS, parallel verification and closure feedback.</p><p class="downloads"><a href="../examples/eda-flow.svg" download>SVG</a> <a href="../examples/eda-flow.pdf" download>PDF</a> <a href="../examples/eda-flow.png" download>PNG</a> <a href="../tikz/eda-flow.tex" download>TikZ</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="examples" data-search="agentic eda flow agentic eda flow a conceptual multi-agent eda system with evolutionary exploration, gpu computing and evidence feedback. example figures cc-by-4.0 ">
+  <a class="preview" href="../examples/agentic-eda-flow.svg"><img loading="lazy" src="../examples/agentic-eda-flow.svg" alt="Agentic EDA flow"></a>
+  <div class="card-body"><p class="category">Example figures</p><h3>Agentic EDA flow</h3><p>A conceptual multi-agent EDA system with evolutionary exploration, GPU computing and evidence feedback.</p><p class="downloads"><a href="../examples/agentic-eda-flow.svg" download>SVG</a> <a href="../examples/agentic-eda-flow.pdf" download>PDF</a> <a href="../examples/agentic-eda-flow.png" download>PNG</a> <a href="../tikz/agentic-eda-flow.tex" download>TikZ</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="specification specification requirements, interfaces, target ppa and workload assumptions. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/specification.svg"><img loading="lazy" src="../icons/frontend/specification.svg" alt="Specification"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Specification</h3><p>Requirements, interfaces, target PPA and workload assumptions.</p><p class="downloads"><a href="../icons/frontend/specification.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="architecture architecture block hierarchy, interfaces and computational partitions. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/architecture.svg"><img loading="lazy" src="../icons/frontend/architecture.svg" alt="Architecture"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Architecture</h3><p>Block hierarchy, interfaces and computational partitions.</p><p class="downloads"><a href="../icons/frontend/architecture.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="rtl design rtl code hdl source for clocked, register-transfer behavior. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/rtl-code.svg"><img loading="lazy" src="../icons/frontend/rtl-code.svg" alt="RTL design"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>RTL design</h3><p>HDL source for clocked, register-transfer behavior.</p><p class="downloads"><a href="../icons/frontend/rtl-code.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="high-level synthesis high level synthesis schedule and bind c/c++ or dsl operations into a datapath that emits rtl. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/high-level-synthesis.svg"><img loading="lazy" src="../icons/frontend/high-level-synthesis.svg" alt="High-level synthesis"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>High-level synthesis</h3><p>Schedule and bind C/C++ or DSL operations into a datapath that emits RTL.</p><p class="downloads"><a href="../icons/frontend/high-level-synthesis.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="logic synthesis logic synthesis optimize boolean logic and map it to cells from a technology library. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/logic-synthesis.svg"><img loading="lazy" src="../icons/frontend/logic-synthesis.svg" alt="Logic synthesis"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Logic synthesis</h3><p>Optimize Boolean logic and map it to cells from a technology library.</p><p class="downloads"><a href="../icons/frontend/logic-synthesis.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="gate-level netlist logic netlist show how mapped logic gates are connected. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/logic-netlist.svg"><img loading="lazy" src="../icons/frontend/logic-netlist.svg" alt="Gate-level netlist"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Gate-level netlist</h3><p>Show how mapped logic gates are connected.</p><p class="downloads"><a href="../icons/frontend/logic-netlist.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="design constraints constraints clock, i/o, target and implementation constraints. specification, rtl and synthesis cc-by-4.0 ">
+  <a class="preview icon" href="../icons/frontend/constraints.svg"><img loading="lazy" src="../icons/frontend/constraints.svg" alt="Design constraints"></a>
+  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Design constraints</h3><p>Clock, I/O, target and implementation constraints.</p><p class="downloads"><a href="../icons/frontend/constraints.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="verification" data-search="functional verification functional stimulus and response checking around a design under test. functional and formal verification cc-by-4.0 ">
+  <a class="preview icon" href="../icons/verification/functional.svg"><img loading="lazy" src="../icons/verification/functional.svg" alt="Functional verification"></a>
+  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Functional verification</h3><p>Stimulus and response checking around a design under test.</p><p class="downloads"><a href="../icons/verification/functional.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="verification" data-search="timing waveform waveform show signal transitions, clock edges and observed behavior. functional and formal verification cc-by-4.0 ">
+  <a class="preview icon" href="../icons/verification/waveform.svg"><img loading="lazy" src="../icons/verification/waveform.svg" alt="Timing waveform"></a>
+  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Timing waveform</h3><p>Show signal transitions, clock edges and observed behavior.</p><p class="downloads"><a href="../icons/verification/waveform.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="verification" data-search="formal verification formal properties, equivalence checks, proofs and counterexamples. functional and formal verification cc-by-4.0 ">
+  <a class="preview icon" href="../icons/verification/formal.svg"><img loading="lazy" src="../icons/verification/formal.svg" alt="Formal verification"></a>
+  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Formal verification</h3><p>Properties, equivalence checks, proofs and counterexamples.</p><p class="downloads"><a href="../icons/verification/formal.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="floorplanning floorplan die and core outlines, macros, i/o and power planning. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/floorplan.svg"><img loading="lazy" src="../icons/backend/floorplan.svg" alt="Floorplanning"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Floorplanning</h3><p>Die and core outlines, macros, I/O and power planning.</p><p class="downloads"><a href="../icons/backend/floorplan.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="placement placement standard cells aligned to rows after legalization. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/placement.svg"><img loading="lazy" src="../icons/backend/placement.svg" alt="Placement"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Placement</h3><p>Standard cells aligned to rows after legalization.</p><p class="downloads"><a href="../icons/backend/placement.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="clock tree synthesis clock tree distribute the clock through buffers to multiple sinks. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/clock-tree.svg"><img loading="lazy" src="../icons/backend/clock-tree.svg" alt="Clock tree synthesis"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Clock tree synthesis</h3><p>Distribute the clock through buffers to multiple sinks.</p><p class="downloads"><a href="../icons/backend/clock-tree.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="routing routing orthogonal interconnect on routing layers and vias. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/routing.svg"><img loading="lazy" src="../icons/backend/routing.svg" alt="Routing"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Routing</h3><p>Orthogonal interconnect on routing layers and vias.</p><p class="downloads"><a href="../icons/backend/routing.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="physical verification physical verification design rule checking (drc) and layout versus schematic (lvs). physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/physical-verification.svg"><img loading="lazy" src="../icons/backend/physical-verification.svg" alt="Physical verification"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Physical verification</h3><p>Design rule checking (DRC) and layout versus schematic (LVS).</p><p class="downloads"><a href="../icons/backend/physical-verification.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="gdsii layout gds layout illustrative mask geometry and hierarchy. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/gds-layout.svg"><img loading="lazy" src="../icons/backend/gds-layout.svg" alt="GDSII layout"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>GDSII layout</h3><p>Illustrative mask geometry and hierarchy.</p><p class="downloads"><a href="../icons/backend/gds-layout.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="backend" data-search="tape-out tapeout package signed-off mask data for foundry submission. physical design and tape-out cc-by-4.0 ">
+  <a class="preview icon" href="../icons/backend/tapeout.svg"><img loading="lazy" src="../icons/backend/tapeout.svg" alt="Tape-out"></a>
+  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Tape-out</h3><p>Package signed-off mask data for foundry submission.</p><p class="downloads"><a href="../icons/backend/tapeout.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="ai agent agent a planning or tool-execution agent for a design workflow. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/agent.svg"><img loading="lazy" src="../icons/ai/agent.svg" alt="AI agent"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>AI agent</h3><p>A planning or tool-execution agent for a design workflow.</p><p class="downloads"><a href="../icons/ai/agent.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="evolutionary optimization evolutionary optimization candidate selection, mutation and evaluation. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/evolutionary-optimization.svg"><img loading="lazy" src="../icons/ai/evolutionary-optimization.svg" alt="Evolutionary optimization"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>Evolutionary optimization</h3><p>Candidate selection, mutation and evaluation.</p><p class="downloads"><a href="../icons/ai/evolutionary-optimization.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="design space exploration design space an illustrative candidate cloud and pareto trade-off. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/design-space.svg"><img loading="lazy" src="../icons/ai/design-space.svg" alt="Design space exploration"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>Design space exploration</h3><p>An illustrative candidate cloud and Pareto trade-off.</p><p class="downloads"><a href="../icons/ai/design-space.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="gpu computing gpu compute parallel accelerators for batched compute and model inference. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/gpu-compute.svg"><img loading="lazy" src="../icons/ai/gpu-compute.svg" alt="GPU computing"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>GPU computing</h3><p>Parallel accelerators for batched compute and model inference.</p><p class="downloads"><a href="../icons/ai/gpu-compute.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="cross-stage feedback cross stage feedback feed later-stage evidence back to design and implementation decisions. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/cross-stage-feedback.svg"><img loading="lazy" src="../icons/ai/cross-stage-feedback.svg" alt="Cross-stage feedback"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>Cross-stage feedback</h3><p>Feed later-stage evidence back to design and implementation decisions.</p><p class="downloads"><a href="../icons/ai/cross-stage-feedback.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="feedback loop feedback a compact symbol for iterative refinement. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/feedback.svg"><img loading="lazy" src="../icons/ai/feedback.svg" alt="Feedback loop"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>Feedback loop</h3><p>A compact symbol for iterative refinement.</p><p class="downloads"><a href="../icons/ai/feedback.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="ai" data-search="ppa metrics ppa power, performance and area objectives. ai and optimization cc-by-4.0 ">
+  <a class="preview icon" href="../icons/ai/ppa.svg"><img loading="lazy" src="../icons/ai/ppa.svg" alt="PPA metrics"></a>
+  <div class="card-body"><p class="category">AI and optimization</p><h3>PPA metrics</h3><p>Power, performance and area objectives.</p><p class="downloads"><a href="../icons/ai/ppa.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="openroad rtl-to-gdsii diagram openroad flow upstream documentation overview for rtl-to-gdsii flow. html labels render best in a browser. third-party assets bsd-3-clause the openroad authors">
+  <a class="preview" href="../assets/external/openroad/rtl2gds.svg"><img loading="lazy" src="../assets/external/openroad/rtl2gds.svg" alt="OpenROAD RTL-to-GDSII diagram"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>OpenROAD RTL-to-GDSII diagram</h3><p>Upstream documentation overview for RTL-to-GDSII flow. HTML labels render best in a browser.</p><p class="downloads"><a href="../assets/external/openroad/rtl2gds.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>The OpenROAD Authors · <a href="https://github.com/The-OpenROAD-Project/OpenROAD/blob/bd7443e30b4875b92c2da26033bd2e3400dd45ba/LICENSE">BSD-3-Clause</a> · <a href="https://github.com/The-OpenROAD-Project/OpenROAD/blob/bd7443e30b4875b92c2da26033bd2e3400dd45ba/docs/images/rtl2gds.svg">Original source</a></p><p>Unmodified</p><p>Preserve the copyright, conditions and disclaimer. Do not imply endorsement.</p><p><a href="https://github.com/The-OpenROAD-Project/OpenROAD/blob/bd7443e30b4875b92c2da26033bd2e3400dd45ba/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="openlane digital flow openlane flow upstream raster flowchart for an automated rtl-to-gdsii flow. third-party assets apache-2.0 the openlane contributors">
+  <a class="preview" href="../assets/external/openlane/flow.png"><img loading="lazy" src="../assets/external/openlane/flow.png" alt="OpenLane digital flow"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>OpenLane digital flow</h3><p>Upstream raster flowchart for an automated RTL-to-GDSII flow.</p><p class="downloads"><a href="../assets/external/openlane/flow.png" download>PNG</a></p>
+    <details><summary>License and credit</summary><p>The OpenLane contributors · <a href="https://github.com/The-OpenROAD-Project/OpenLane/blob/86f34b3484a1709e9058c6bfa4b1bc49aeae8335/LICENSE">Apache-2.0</a> · <a href="https://github.com/The-OpenROAD-Project/OpenLane/blob/86f34b3484a1709e9058c6bfa4b1bc49aeae8335/docs/_static/flow.png">Original source</a></p><p>Unmodified</p><p>Retain applicable copyright and attribution notices and the license. Mark modified files. No trademark grant.</p><p><a href="https://github.com/The-OpenROAD-Project/OpenLane/blob/86f34b3484a1709e9058c6bfa4b1bc49aeae8335/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="siliconcompiler flowgraph sc flowgraph a task graph showing tools and design-data edges, with editable graphviz source. third-party assets apache-2.0 the siliconcompiler contributors">
+  <a class="preview" href="../assets/external/siliconcompiler/flowgraph.svg"><img loading="lazy" src="../assets/external/siliconcompiler/flowgraph.svg" alt="SiliconCompiler flowgraph"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>SiliconCompiler flowgraph</h3><p>A task graph showing tools and design-data edges, with editable Graphviz source.</p><p class="downloads"><a href="../assets/external/siliconcompiler/flowgraph.svg" download>SVG</a> <a href="../assets/external/siliconcompiler/flowgraph.pdf" download>PDF</a> <a href="../assets/external/siliconcompiler/flowgraph.dot" download>DOT</a></p>
+    <details><summary>License and credit</summary><p>The SiliconCompiler contributors · <a href="https://github.com/siliconcompiler/siliconcompiler/blob/26bf7eaf25d43dc0809ecc2c8551f595716b0787/LICENSE">Apache-2.0</a> · <a href="https://github.com/siliconcompiler/siliconcompiler/blob/26bf7eaf25d43dc0809ecc2c8551f595716b0787/docs/user_guide/_images/concepts/flowgraph.dot">Original source</a></p><p>Rendered as SVG and vector PDF with Graphviz using a transparent background.</p><p>Retain applicable copyright and attribution notices and the license. Mark modified files. No trademark grant.</p><p><a href="https://github.com/siliconcompiler/siliconcompiler/blob/26bf7eaf25d43dc0809ecc2c8551f595716b0787/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="netlistsvg multiplexer netlistsvg mux upstream multiplexer schematic and its yosys-style netlist fixture. third-party assets mit neil turley">
+  <a class="preview" href="../assets/external/netlistsvg/mux4.svg"><img loading="lazy" src="../assets/external/netlistsvg/mux4.svg" alt="NetlistSVG multiplexer"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>NetlistSVG multiplexer</h3><p>Upstream multiplexer schematic and its Yosys-style netlist fixture.</p><p class="downloads"><a href="../assets/external/netlistsvg/mux4.svg" download>SVG</a> <a href="../assets/external/netlistsvg/mux4.json" download>JSON</a></p>
+    <details><summary>License and credit</summary><p>Neil Turley · <a href="https://github.com/nturley/netlistsvg/blob/d3518f1b5c996a876b72a1a984bb39d3572c47dc/LICENSE">MIT</a> · <a href="https://github.com/nturley/netlistsvg/blob/d3518f1b5c996a876b72a1a984bb39d3572c47dc/doc/mux4.svg">Original source</a></p><p>Unmodified</p><p>Retain the copyright and MIT permission notice when redistributing.</p><p><a href="https://github.com/nturley/netlistsvg/blob/d3518f1b5c996a876b72a1a984bb39d3572c47dc/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="wavedrom timing arcs wavedrom arcs upstream timing waveform and editable wavejson source. third-party assets mit aliaksei chapyzhenka">
+  <a class="preview" href="../assets/external/wavedrom/signal-arcs.svg"><img loading="lazy" src="../assets/external/wavedrom/signal-arcs.svg" alt="WaveDrom timing arcs"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>WaveDrom timing arcs</h3><p>Upstream timing waveform and editable WaveJSON source.</p><p class="downloads"><a href="../assets/external/wavedrom/signal-arcs.svg" download>SVG</a> <a href="../assets/external/wavedrom/signal-arcs.json5" download>JSON5</a></p>
+    <details><summary>License and credit</summary><p>Aliaksei Chapyzhenka · <a href="https://github.com/wavedrom/wavedrom/blob/5f44f7d836c550fa1f0fff2ea23cc95a5c0695e3/LICENSE">MIT</a> · <a href="https://github.com/wavedrom/wavedrom/blob/5f44f7d836c550fa1f0fff2ea23cc95a5c0695e3/test/signal-arcs1.svg">Original source</a></p><p>Unmodified, local filenames shortened.</p><p>Retain the copyright and MIT permission notice when redistributing.</p><p><a href="https://github.com/wavedrom/wavedrom/blob/5f44f7d836c550fa1f0fff2ea23cc95a5c0695e3/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="tiny tapeout 4 gds render tiny tapeout 04 full-chip raster layout of the tt04 shuttle rendered from gds. third-party assets cc-by-4.0 tiny tapeout">
+  <a class="preview" href="../assets/external/tinytapeout/tt04-full-gds.png"><img loading="lazy" src="../assets/external/tinytapeout/tt04-full-gds.png" alt="Tiny Tapeout 4 GDS render"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>Tiny Tapeout 4 GDS render</h3><p>Full-chip raster layout of the TT04 shuttle rendered from GDS.</p><p class="downloads"><a href="../assets/external/tinytapeout/tt04-full-gds.png" download>PNG</a></p>
+    <details><summary>License and credit</summary><p>Tiny Tapeout · <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> · <a href="https://github.com/TinyTapeout/tinytapeout-chip-renders/blob/64c58c2d33a95908fcf8ca172ef43b21d5177b68/shuttles/tt04/full_gds.png">Original source</a></p><p>Unmodified</p><p>Credit the creator, link the source and license, and indicate changes. Do not impose additional restrictions.</p><p><a href="https://github.com/TinyTapeout/tinytapeout-chip-renders/blob/64c58c2d33a95908fcf8ca172ef43b21d5177b68/README.md#license">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="tabler cpu tabler cpu processor and semiconductor chip icon. third-party assets mit paweł kuna / tabler icons">
+  <a class="preview" href="../assets/external/tabler/cpu.svg"><img loading="lazy" src="../assets/external/tabler/cpu.svg" alt="Tabler CPU"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>Tabler CPU</h3><p>Processor and semiconductor chip icon.</p><p class="downloads"><a href="../assets/external/tabler/cpu.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>Paweł Kuna / Tabler Icons · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">MIT</a> · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/icons/outline/cpu.svg">Original source</a></p><p>Unmodified</p><p>Retain the copyright and MIT permission notice when redistributing.</p><p><a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="tabler gpu tabler gpu graphics processor and accelerator icon. third-party assets mit paweł kuna / tabler icons">
+  <a class="preview" href="../assets/external/tabler/gpu.svg"><img loading="lazy" src="../assets/external/tabler/gpu.svg" alt="Tabler GPU"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>Tabler GPU</h3><p>Graphics processor and accelerator icon.</p><p class="downloads"><a href="../assets/external/tabler/gpu.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>Paweł Kuna / Tabler Icons · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">MIT</a> · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/icons/outline/gpu.svg">Original source</a></p><p>Unmodified</p><p>Retain the copyright and MIT permission notice when redistributing.</p><p><a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="tabler robot tabler robot automation or ai agent icon. third-party assets mit paweł kuna / tabler icons">
+  <a class="preview" href="../assets/external/tabler/robot.svg"><img loading="lazy" src="../assets/external/tabler/robot.svg" alt="Tabler Robot"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>Tabler Robot</h3><p>Automation or AI agent icon.</p><p class="downloads"><a href="../assets/external/tabler/robot.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>Paweł Kuna / Tabler Icons · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">MIT</a> · <a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/icons/outline/robot.svg">Original source</a></p><p>Unmodified</p><p>Retain the copyright and MIT permission notice when redistributing.</p><p><a href="https://github.com/tabler/tabler-icons/blob/a1422751964ae9c7d9acb5c8d9a7a9c1ff0f8192/LICENSE">Upstream license evidence</a></p></details></div>
+</article>
+        <article class="card" data-category="external" data-search="cmos inverter wikimedia cmos transistor-level cmos inverter schematic from wikimedia commons. third-party assets cc-by-sa-3.0 abaddon1337">
+  <a class="preview" href="../assets/external/wikimedia/cmos-inverter.svg"><img loading="lazy" src="../assets/external/wikimedia/cmos-inverter.svg" alt="CMOS inverter"></a>
+  <div class="card-body"><p class="category">Third-party assets</p><h3>CMOS inverter</h3><p>Transistor-level CMOS inverter schematic from Wikimedia Commons.</p><p class="downloads"><a href="../assets/external/wikimedia/cmos-inverter.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>Abaddon1337 · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a> · <a href="https://commons.wikimedia.org/wiki/File:CMOS_inverter.svg?oldid=844011754">Original source</a></p><p>Unmodified</p><p>Credit the creator, link the source and license, indicate changes, and share adaptations under the same or a permitted compatible license.</p><p><a href="https://commons.wikimedia.org/wiki/File:CMOS_inverter.svg?oldid=844011754">Upstream license evidence</a></p></details></div>
+</article>
+      </div>
+    </section>
+  </main>
+  <footer class="shell footer">
+    The original figures are conceptual. Check the credit and license of each third-party asset before reuse.
+  </footer>
+</body>
+</html>
