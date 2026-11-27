@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
+  <title id="title">Formal verification results</title>
+  <desc id="desc">A formal report with proven properties and a counterexample trace.</desc>
+  <rect x="15" y="10" width="130" height="96" rx="11" fill="#f0f3f8" stroke="#64748b" stroke-width="3"/>
+  <path d="M49 34h72M49 51h59M29 87h19V72h24v15h23V72h26" fill="none" stroke="#7453a9" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m28 33 4 4 8-9m-12 22 4 4 8-9" fill="none" stroke="#0e8275" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

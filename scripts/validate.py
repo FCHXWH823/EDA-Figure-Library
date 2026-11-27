@@ -20,6 +20,7 @@ STAGES = {
     "agent", "evolutionary-optimization", "design-space", "gpu-compute",
     "cross-stage-feedback",
 }
+ARTIFACT_CATEGORIES = {"frontend", "verification", "backend"}
 
 
 def require(condition, message):
@@ -126,6 +127,14 @@ def main():
         require(path.is_file() and path not in visual_paths, f"Missing or duplicate asset: {path}")
         visual_paths.add(path)
         original = asset["category"] != "external"
+        if asset["category"] in ARTIFACT_CATEGORIES:
+            require(bool(asset.get("formats")), f"Missing artifact format examples: {path}")
+        if asset["category"] == "tasks":
+            task = ET.parse(path).getroot()
+            require(len(task.findall(SVG + "rect")) == 1
+                    and len(task.findall(SVG + "text")) == 1
+                    and task.findtext(SVG + "text") == asset["title"],
+                    f"Expected a single named task rectangle: {path}")
         if not original:
             for key in ("source", "licenseSource", "licenseUrl"):
                 require(asset[key].startswith("https://"), f"Missing {key}: {path}")

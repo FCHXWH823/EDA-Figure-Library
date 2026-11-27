@@ -11,9 +11,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = {
     "examples": "Example figures",
-    "frontend": "Specification, RTL and synthesis",
-    "verification": "Functional and formal verification",
-    "backend": "Physical design and tape-out",
+    "tasks": "EDA tasks",
+    "frontend": "Front-end artifacts",
+    "verification": "Verification artifacts",
+    "backend": "Physical design artifacts",
     "ai": "AI and optimization",
     "external": "Third-party assets",
 }
@@ -21,13 +22,13 @@ COLORS = {
     "frontend": ("#EAF3FC", "#2563A6"),
     "verification": ("#F0E9FA", "#7756A5"),
     "backend": ("#E6F5F1", "#16736A"),
+    "tasks": ("#EAF1FF", "#4261A3"),
     "ai": ("#F0E9FA", "#7756A5"),
 }
 SHAPES = {
     "specification": "document", "architecture": "swimlane", "rtl-code": "note",
-    "high-level-synthesis": "hexagon", "logic-synthesis": "process",
     "logic-netlist": "process", "constraints": "note",
-    "functional": "process", "waveform": "parallelogram", "formal": "rhombus",
+    "waveform": "parallelogram", "proof-report": "document",
     "floorplan": "rectangle", "placement": "rectangle", "clock-tree": "triangle",
     "routing": "process", "physical-verification": "rhombus",
     "gds-layout": "cylinder3", "tapeout": "document",
@@ -46,10 +47,16 @@ def gallery_card(asset):
     group = asset["category"]
     path = asset["file"]
     title = asset["title"]
+    formats = asset.get("formats", [])
     search = " ".join([
         title, asset["id"].replace("-", " "), asset["description"],
         CATEGORIES[group], asset.get("license", "CC-BY-4.0"), asset.get("credit", ""),
+        *formats,
     ]).lower()
+    format_note = (
+        f'<p class="formats"><strong>Artifact formats</strong> · {html.escape(", ".join(formats))}</p>'
+        if formats else ""
+    )
     downloads = [link("../" + path, Path(path).suffix[1:].upper(), download=True)]
     if group == "examples":
         for suffix in (".pdf", ".png"):
@@ -76,13 +83,16 @@ def gallery_card(asset):
     else:
         license_link = link("https://creativecommons.org/licenses/by/4.0/", "CC BY 4.0")
         details = f"<p>EDA Figure Library contributors · {license_link}</p>"
-    preview_class = "preview icon" if group in COLORS else "preview"
+    preview_class = "preview"
+    if group in COLORS and group != "tasks":
+        preview_class += " icon"
     return (
         f'<article class="card" data-category="{group}" data-search="{html.escape(search)}">\n'
         f'  <a class="{preview_class}" href="../{path}">'
         f'<img loading="lazy" src="../{path}" alt="{html.escape(title)}"></a>\n'
         f'  <div class="card-body"><p class="category">{CATEGORIES[group]}</p>'
         f'<h3>{html.escape(title)}</h3><p>{html.escape(asset["description"])}</p>'
+        f'{format_note}'
         f'<p class="downloads">{" ".join(downloads)}</p>\n'
         f"    <details><summary>License and credit</summary>{details}</details></div>\n"
         "</article>"
@@ -106,7 +116,8 @@ def drawio_shape(asset):
     root = ET.SubElement(model, "root")
     ET.SubElement(root, "mxCell", id="0")
     ET.SubElement(root, "mxCell", id="1", parent="0")
-    shape = SHAPES[asset["id"]]
+    is_task = asset["category"] == "tasks"
+    shape = "rectangle" if is_task else SHAPES[asset["id"]]
     style = (
         f"shape={shape};html=0;whiteSpace=wrap;strokeWidth=2;fillColor={fill};"
         f"strokeColor={stroke};fontColor=#13263D;fontSize=13;fontStyle=1;"
@@ -114,6 +125,8 @@ def drawio_shape(asset):
     )
     if shape == "swimlane":
         style += "startSize=28;swimlaneFillColor=#FFFFFF;"
+    if is_task:
+        style += "rounded=1;arcSize=16;"
     card = ET.SubElement(
         root, "mxCell", id="2", value=asset["title"], style=style, vertex="1", parent="1"
     )
@@ -151,11 +164,29 @@ def build_library(assets):
     return ET.tostring(library, encoding="unicode") + "\n"
 
 
+def build_task_svg(asset):
+    title = html.escape(asset["title"])
+    description = html.escape(asset["description"])
+    fill, stroke = COLORS["tasks"]
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 76" width="280" height="76" '
+        'role="img" aria-labelledby="title desc">\n'
+        f'  <title id="title">{title}</title>\n'
+        f'  <desc id="desc">{description}</desc>\n'
+        f'  <rect x="3" y="9" width="274" height="58" rx="8" fill="{fill}" '
+        f'stroke="{stroke}" stroke-width="2.5"/>\n'
+        '  <text x="140" y="44" text-anchor="middle" font-family="sans-serif" '
+        f'font-size="21" font-weight="600" fill="#13263D">{title}</text>\n'
+        '</svg>\n'
+    )
+
+
 def write_or_check(path, data, check):
     if check:
         if not path.exists() or path.read_text() != data:
             raise SystemExit(f"{path.relative_to(ROOT)} is stale. Run python3 scripts/build.py.")
     else:
+        path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(data)
 
 
@@ -181,6 +212,9 @@ def main():
     parser.add_argument("--site", type=Path, help="Copy the static gallery to this output directory.")
     args = parser.parse_args()
     assets = json.loads((ROOT / "resources/assets.json").read_text())["assets"]
+    for asset in assets:
+        if asset["category"] == "tasks":
+            write_or_check(ROOT / asset["file"], build_task_svg(asset), args.check)
     write_or_check(ROOT / "docs/index.html", build_gallery(assets), args.check)
     write_or_check(ROOT / "drawio/eda-shapes.xml", build_library(assets), args.check)
     if args.site:

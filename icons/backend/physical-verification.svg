@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90"><path d="M60 8 L94 20 V45 Q94 67 60 81 Q26 67 26 45 V20 Z" fill="none" stroke="#168579" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M43 43 L55 56 L78 30" fill="none" stroke="#168579" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="8" y="60" width="15" height="15" rx="3" fill="#7756a5" fill-opacity="0.16" stroke="#7756a5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
+  <title id="title">DRC and LVS signoff results</title>
+  <desc id="desc">A teal shield with a check mark represents passing physical verification reports.</desc>
+  <path d="M80 11 126 30v29c0 19-19 35-46 46-27-11-46-27-46-46V30Z" fill="#e5f3f0" stroke="#0e8275" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m57 58 16 16 31-33" fill="none" stroke="#0e8275" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

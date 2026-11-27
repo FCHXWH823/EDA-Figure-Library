@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90"><path d="M15 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M25 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M35 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M45 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M55 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M65 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M75 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M85 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M95 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M105 8 V82" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 10 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 20 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 30 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 40 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 50 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 60 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 70 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 80 H108" fill="none" stroke="#d5dce4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M15 20 H45 V60 H105" fill="none" stroke="#2563a6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M25 80 V40 H75 V10" fill="none" stroke="#168579" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><path d="M15 50 H35 V70 H95 V30" fill="none" stroke="#7756a5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
+  <title id="title">Routed layout with connected standard cells</title>
+  <desc id="desc">Three colored Manhattan routes connect pins on six standard-cell blocks over a routing grid. White centers mark illustrative vias.</desc>
+  <g fill="none" stroke="#c7d1e0" stroke-width="1">
+    <path d="M12 18h136M12 32h136M12 46h136M12 60h136M12 74h136M12 88h136M12 102h136"/>
+    <path d="M16 12v94M32 12v94M48 12v94M64 12v94M80 12v94M96 12v94M112 12v94M128 12v94M144 12v94"/>
+  </g>
+  <g fill="none" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M35 39h28v19h61" stroke="#2563eb"/>
+    <path d="M35 73h14V23h70" stroke="#0e8275"/>
+    <path d="M42 96h42V82h40" stroke="#bd650b"/>
+  </g>
+  <g fill="#eaf0f8" stroke="#52647e" stroke-width="1.6">
+    <rect x="16" y="32" width="19" height="14" rx="2"/><rect x="124" y="51" width="20" height="14" rx="2"/>
+    <rect x="16" y="66" width="19" height="14" rx="2"/><rect x="119" y="16" width="20" height="14" rx="2"/>
+    <rect x="23" y="89" width="19" height="14" rx="2"/><rect x="124" y="75" width="20" height="14" rx="2"/>
+  </g>
+  <g fill="#fff" stroke-width="1.6">
+    <rect x="60.5" y="55.5" width="5" height="5" stroke="#2563eb"/>
+    <rect x="46.5" y="20.5" width="5" height="5" stroke="#0e8275"/>
+    <rect x="81.5" y="79.5" width="5" height="5" stroke="#bd650b"/>
+  </g>
+  <g stroke="#fff" stroke-width=".8">
+    <circle cx="35" cy="39" r="2.5" fill="#2563eb"/><circle cx="124" cy="58" r="2.5" fill="#2563eb"/>
+    <circle cx="35" cy="73" r="2.5" fill="#0e8275"/><circle cx="119" cy="23" r="2.5" fill="#0e8275"/>
+    <circle cx="42" cy="96" r="2.5" fill="#bd650b"/><circle cx="124" cy="82" r="2.5" fill="#bd650b"/>
+  </g>
+</svg>

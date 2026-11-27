@@ -33,13 +33,14 @@
     <section aria-labelledby="gallery-title">
       <h2 id="gallery-title">Visual gallery</h2>
       <form class="filters" id="filters" hidden role="search">
-        <label>Search assets <input id="query" type="search" placeholder="Try clock tree, GPU or CMOS" aria-controls="gallery"></label>
+        <label>Search assets <input id="query" type="search" placeholder="Try routed DEF, clock tree or GPU" aria-controls="gallery"></label>
         <label>Category <select id="category" aria-controls="gallery">
           <option value="">All categories</option>
           <option value="examples">Example figures</option>
-          <option value="frontend">Specification, RTL and synthesis</option>
-          <option value="verification">Functional and formal verification</option>
-          <option value="backend">Physical design and tape-out</option>
+          <option value="tasks">EDA tasks</option>
+          <option value="frontend">Front-end artifacts</option>
+          <option value="verification">Verification artifacts</option>
+          <option value="backend">Physical design artifacts</option>
           <option value="ai">AI and optimization</option>
           <option value="external">Third-party assets</option>
         </select></label>
@@ -57,89 +58,144 @@
   <div class="card-body"><p class="category">Example figures</p><h3>Agentic EDA flow</h3><p>A conceptual multi-agent EDA system with evolutionary exploration, GPU computing and evidence feedback.</p><p class="downloads"><a href="../examples/agentic-eda-flow.svg" download>SVG</a> <a href="../examples/agentic-eda-flow.pdf" download>PDF</a> <a href="../examples/agentic-eda-flow.png" download>PNG</a> <a href="../tikz/agentic-eda-flow.tex" download>TikZ</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="specification specification requirements, interfaces, target ppa and workload assumptions. specification, rtl and synthesis cc-by-4.0 ">
-  <a class="preview icon" href="../icons/frontend/specification.svg"><img loading="lazy" src="../icons/frontend/specification.svg" alt="Specification"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Specification</h3><p>Requirements, interfaces, target PPA and workload assumptions.</p><p class="downloads"><a href="../icons/frontend/specification.svg" download>SVG</a></p>
+        <article class="card" data-category="tasks" data-search="high-level synthesis high level synthesis schedule and bind c/c++ or dsl operations into a datapath that emits rtl. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/frontend/high-level-synthesis.svg"><img loading="lazy" src="../icons/frontend/high-level-synthesis.svg" alt="High-level synthesis"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>High-level synthesis</h3><p>Schedule and bind C/C++ or DSL operations into a datapath that emits RTL.</p><p class="downloads"><a href="../icons/frontend/high-level-synthesis.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="architecture architecture block hierarchy, interfaces and computational partitions. specification, rtl and synthesis cc-by-4.0 ">
-  <a class="preview icon" href="../icons/frontend/architecture.svg"><img loading="lazy" src="../icons/frontend/architecture.svg" alt="Architecture"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Architecture</h3><p>Block hierarchy, interfaces and computational partitions.</p><p class="downloads"><a href="../icons/frontend/architecture.svg" download>SVG</a></p>
+        <article class="card" data-category="tasks" data-search="logic synthesis logic synthesis optimize boolean logic and map it to cells from a technology library. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/frontend/logic-synthesis.svg"><img loading="lazy" src="../icons/frontend/logic-synthesis.svg" alt="Logic synthesis"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Logic synthesis</h3><p>Optimize Boolean logic and map it to cells from a technology library.</p><p class="downloads"><a href="../icons/frontend/logic-synthesis.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="rtl design rtl code hdl source for clocked, register-transfer behavior. specification, rtl and synthesis cc-by-4.0 ">
-  <a class="preview icon" href="../icons/frontend/rtl-code.svg"><img loading="lazy" src="../icons/frontend/rtl-code.svg" alt="RTL design"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>RTL design</h3><p>HDL source for clocked, register-transfer behavior.</p><p class="downloads"><a href="../icons/frontend/rtl-code.svg" download>SVG</a></p>
+        <article class="card" data-category="tasks" data-search="functional verification functional stimulus and response checking around a design under test. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/verification/functional.svg"><img loading="lazy" src="../icons/verification/functional.svg" alt="Functional verification"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Functional verification</h3><p>Stimulus and response checking around a design under test.</p><p class="downloads"><a href="../icons/verification/functional.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="high-level synthesis high level synthesis schedule and bind c/c++ or dsl operations into a datapath that emits rtl. specification, rtl and synthesis cc-by-4.0 ">
-  <a class="preview icon" href="../icons/frontend/high-level-synthesis.svg"><img loading="lazy" src="../icons/frontend/high-level-synthesis.svg" alt="High-level synthesis"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>High-level synthesis</h3><p>Schedule and bind C/C++ or DSL operations into a datapath that emits RTL.</p><p class="downloads"><a href="../icons/frontend/high-level-synthesis.svg" download>SVG</a></p>
+        <article class="card" data-category="tasks" data-search="formal verification formal properties, equivalence checks, proofs and counterexamples. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/verification/formal.svg"><img loading="lazy" src="../icons/verification/formal.svg" alt="Formal verification"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Formal verification</h3><p>Properties, equivalence checks, proofs and counterexamples.</p><p class="downloads"><a href="../icons/verification/formal.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="logic synthesis logic synthesis optimize boolean logic and map it to cells from a technology library. specification, rtl and synthesis cc-by-4.0 ">
-  <a class="preview icon" href="../icons/frontend/logic-synthesis.svg"><img loading="lazy" src="../icons/frontend/logic-synthesis.svg" alt="Logic synthesis"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Logic synthesis</h3><p>Optimize Boolean logic and map it to cells from a technology library.</p><p class="downloads"><a href="../icons/frontend/logic-synthesis.svg" download>SVG</a></p>
+        <article class="card" data-category="tasks" data-search="write specification task specification turn product goals and workloads into documented requirements. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/specification.svg"><img loading="lazy" src="../icons/tasks/specification.svg" alt="Write specification"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Write specification</h3><p>Turn product goals and workloads into documented requirements.</p><p class="downloads"><a href="../icons/tasks/specification.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="gate-level netlist logic netlist show how mapped logic gates are connected. specification, rtl and synthesis cc-by-4.0 ">
+        <article class="card" data-category="tasks" data-search="define architecture task architecture partition the specification into blocks, interfaces and data paths. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/architecture.svg"><img loading="lazy" src="../icons/tasks/architecture.svg" alt="Define architecture"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Define architecture</h3><p>Partition the specification into blocks, interfaces and data paths.</p><p class="downloads"><a href="../icons/tasks/architecture.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="rtl design task rtl design implement the architecture in a hardware description language. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/rtl-design.svg"><img loading="lazy" src="../icons/tasks/rtl-design.svg" alt="RTL design"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>RTL design</h3><p>Implement the architecture in a hardware description language.</p><p class="downloads"><a href="../icons/tasks/rtl-design.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="floorplanning task floorplanning establish the die, core, macro locations and i/o plan. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/floorplanning.svg"><img loading="lazy" src="../icons/tasks/floorplanning.svg" alt="Floorplanning"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Floorplanning</h3><p>Establish the die, core, macro locations and I/O plan.</p><p class="downloads"><a href="../icons/tasks/floorplanning.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="placement task placement place and legalize standard cells on the available rows. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/placement.svg"><img loading="lazy" src="../icons/tasks/placement.svg" alt="Placement"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Placement</h3><p>Place and legalize standard cells on the available rows.</p><p class="downloads"><a href="../icons/tasks/placement.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="clock tree synthesis task cts build a buffered clock distribution network. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/clock-tree-synthesis.svg"><img loading="lazy" src="../icons/tasks/clock-tree-synthesis.svg" alt="Clock tree synthesis"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Clock tree synthesis</h3><p>Build a buffered clock distribution network.</p><p class="downloads"><a href="../icons/tasks/clock-tree-synthesis.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="routing task routing assign interconnect tracks, metal wires and vias to nets. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/routing.svg"><img loading="lazy" src="../icons/tasks/routing.svg" alt="Routing"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Routing</h3><p>Assign interconnect tracks, metal wires and vias to nets.</p><p class="downloads"><a href="../icons/tasks/routing.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="layout stream-out task stream out export the routed design and library geometries as a mask layout database. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/stream-out.svg"><img loading="lazy" src="../icons/tasks/stream-out.svg" alt="Layout stream-out"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Layout stream-out</h3><p>Export the routed design and library geometries as a mask layout database.</p><p class="downloads"><a href="../icons/tasks/stream-out.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="physical verification task physical verification check design rules and compare extracted layout connectivity to the reference netlist. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/physical-verification.svg"><img loading="lazy" src="../icons/tasks/physical-verification.svg" alt="Physical verification"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Physical verification</h3><p>Check design rules and compare extracted layout connectivity to the reference netlist.</p><p class="downloads"><a href="../icons/tasks/physical-verification.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="tasks" data-search="tape-out task tapeout submit the signed-off layout and required deliverables to the foundry. eda tasks cc-by-4.0 ">
+  <a class="preview" href="../icons/tasks/tapeout.svg"><img loading="lazy" src="../icons/tasks/tapeout.svg" alt="Tape-out"></a>
+  <div class="card-body"><p class="category">EDA tasks</p><h3>Tape-out</h3><p>Submit the signed-off layout and required deliverables to the foundry.</p><p class="downloads"><a href="../icons/tasks/tapeout.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="specification document specification requirements, interfaces, target ppa and workload assumptions. front-end artifacts cc-by-4.0  markdown (.md) pdf (.pdf)">
+  <a class="preview icon" href="../icons/frontend/specification.svg"><img loading="lazy" src="../icons/frontend/specification.svg" alt="Specification document"></a>
+  <div class="card-body"><p class="category">Front-end artifacts</p><h3>Specification document</h3><p>Requirements, interfaces, target PPA and workload assumptions.</p><p class="formats"><strong>Artifact formats</strong> · Markdown (.md), PDF (.pdf)</p><p class="downloads"><a href="../icons/frontend/specification.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="architecture block diagram architecture block hierarchy and interfaces shown as four connected blocks within a chip boundary. front-end artifacts cc-by-4.0  svg (.svg) pdf (.pdf)">
+  <a class="preview icon" href="../icons/frontend/architecture.svg"><img loading="lazy" src="../icons/frontend/architecture.svg" alt="Architecture block diagram"></a>
+  <div class="card-body"><p class="category">Front-end artifacts</p><h3>Architecture block diagram</h3><p>Block hierarchy and interfaces shown as four connected blocks within a chip boundary.</p><p class="formats"><strong>Artifact formats</strong> · SVG (.svg), PDF (.pdf)</p><p class="downloads"><a href="../icons/frontend/architecture.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="rtl source rtl code a systemverilog register samples d on the rising clock edge. front-end artifacts cc-by-4.0  systemverilog (.sv) verilog (.v) vhdl (.vhd)">
+  <a class="preview icon" href="../icons/frontend/rtl-code.svg"><img loading="lazy" src="../icons/frontend/rtl-code.svg" alt="RTL source"></a>
+  <div class="card-body"><p class="category">Front-end artifacts</p><h3>RTL source</h3><p>A SystemVerilog register samples d on the rising clock edge.</p><p class="formats"><strong>Artifact formats</strong> · SystemVerilog (.sv), Verilog (.v), VHDL (.vhd)</p><p class="downloads"><a href="../icons/frontend/rtl-code.svg" download>SVG</a></p>
+    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
+</article>
+        <article class="card" data-category="frontend" data-search="gate-level netlist logic netlist three connected and gates represent mapped cells and logical nets. front-end artifacts cc-by-4.0  verilog netlist (.v)">
   <a class="preview icon" href="../icons/frontend/logic-netlist.svg"><img loading="lazy" src="../icons/frontend/logic-netlist.svg" alt="Gate-level netlist"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Gate-level netlist</h3><p>Show how mapped logic gates are connected.</p><p class="downloads"><a href="../icons/frontend/logic-netlist.svg" download>SVG</a></p>
+  <div class="card-body"><p class="category">Front-end artifacts</p><h3>Gate-level netlist</h3><p>Three connected AND gates represent mapped cells and logical nets.</p><p class="formats"><strong>Artifact formats</strong> · Verilog netlist (.v)</p><p class="downloads"><a href="../icons/frontend/logic-netlist.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="frontend" data-search="design constraints constraints clock, i/o, target and implementation constraints. specification, rtl and synthesis cc-by-4.0 ">
+        <article class="card" data-category="frontend" data-search="design constraints constraints clock, i/o, target and implementation constraints. front-end artifacts cc-by-4.0  synopsys design constraints (.sdc)">
   <a class="preview icon" href="../icons/frontend/constraints.svg"><img loading="lazy" src="../icons/frontend/constraints.svg" alt="Design constraints"></a>
-  <div class="card-body"><p class="category">Specification, RTL and synthesis</p><h3>Design constraints</h3><p>Clock, I/O, target and implementation constraints.</p><p class="downloads"><a href="../icons/frontend/constraints.svg" download>SVG</a></p>
+  <div class="card-body"><p class="category">Front-end artifacts</p><h3>Design constraints</h3><p>Clock, I/O, target and implementation constraints.</p><p class="formats"><strong>Artifact formats</strong> · Synopsys Design Constraints (.sdc)</p><p class="downloads"><a href="../icons/frontend/constraints.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="verification" data-search="functional verification functional stimulus and response checking around a design under test. functional and formal verification cc-by-4.0 ">
-  <a class="preview icon" href="../icons/verification/functional.svg"><img loading="lazy" src="../icons/verification/functional.svg" alt="Functional verification"></a>
-  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Functional verification</h3><p>Stimulus and response checking around a design under test.</p><p class="downloads"><a href="../icons/verification/functional.svg" download>SVG</a></p>
-    <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
-</article>
-        <article class="card" data-category="verification" data-search="timing waveform waveform show signal transitions, clock edges and observed behavior. functional and formal verification cc-by-4.0 ">
+        <article class="card" data-category="verification" data-search="timing waveform waveform show signal transitions, clock edges and observed behavior. verification artifacts cc-by-4.0  value change dump (.vcd) fast signal trace (.fst)">
   <a class="preview icon" href="../icons/verification/waveform.svg"><img loading="lazy" src="../icons/verification/waveform.svg" alt="Timing waveform"></a>
-  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Timing waveform</h3><p>Show signal transitions, clock edges and observed behavior.</p><p class="downloads"><a href="../icons/verification/waveform.svg" download>SVG</a></p>
+  <div class="card-body"><p class="category">Verification artifacts</p><h3>Timing waveform</h3><p>Show signal transitions, clock edges and observed behavior.</p><p class="formats"><strong>Artifact formats</strong> · Value Change Dump (.vcd), Fast Signal Trace (.fst)</p><p class="downloads"><a href="../icons/verification/waveform.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="verification" data-search="formal verification formal properties, equivalence checks, proofs and counterexamples. functional and formal verification cc-by-4.0 ">
-  <a class="preview icon" href="../icons/verification/formal.svg"><img loading="lazy" src="../icons/verification/formal.svg" alt="Formal verification"></a>
-  <div class="card-body"><p class="category">Functional and formal verification</p><h3>Formal verification</h3><p>Properties, equivalence checks, proofs and counterexamples.</p><p class="downloads"><a href="../icons/verification/formal.svg" download>SVG</a></p>
+        <article class="card" data-category="verification" data-search="formal verification results proof report a property report records proven assertions or a counterexample trace. verification artifacts cc-by-4.0  tool report counterexample waveform (.vcd)">
+  <a class="preview icon" href="../icons/verification/proof-report.svg"><img loading="lazy" src="../icons/verification/proof-report.svg" alt="Formal verification results"></a>
+  <div class="card-body"><p class="category">Verification artifacts</p><h3>Formal verification results</h3><p>A property report records proven assertions or a counterexample trace.</p><p class="formats"><strong>Artifact formats</strong> · Tool report, Counterexample waveform (.vcd)</p><p class="downloads"><a href="../icons/verification/proof-report.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="floorplanning floorplan die and core outlines, macros, i/o and power planning. physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/floorplan.svg"><img loading="lazy" src="../icons/backend/floorplan.svg" alt="Floorplanning"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Floorplanning</h3><p>Die and core outlines, macros, I/O and power planning.</p><p class="downloads"><a href="../icons/backend/floorplan.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="floorplan floorplan die and core outlines, macros, i/o and power planning. physical design artifacts cc-by-4.0  def (.def) opendb (.odb)">
+  <a class="preview icon" href="../icons/backend/floorplan.svg"><img loading="lazy" src="../icons/backend/floorplan.svg" alt="Floorplan"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>Floorplan</h3><p>Die and core outlines, macros, I/O and power planning.</p><p class="formats"><strong>Artifact formats</strong> · DEF (.def), OpenDB (.odb)</p><p class="downloads"><a href="../icons/backend/floorplan.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="placement placement standard cells aligned to rows after legalization. physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/placement.svg"><img loading="lazy" src="../icons/backend/placement.svg" alt="Placement"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Placement</h3><p>Standard cells aligned to rows after legalization.</p><p class="downloads"><a href="../icons/backend/placement.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="placed layout placement standard cells aligned to rows after legalization. physical design artifacts cc-by-4.0  def (.def) opendb (.odb)">
+  <a class="preview icon" href="../icons/backend/placement.svg"><img loading="lazy" src="../icons/backend/placement.svg" alt="Placed layout"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>Placed layout</h3><p>Standard cells aligned to rows after legalization.</p><p class="formats"><strong>Artifact formats</strong> · DEF (.def), OpenDB (.odb)</p><p class="downloads"><a href="../icons/backend/placement.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="clock tree synthesis clock tree distribute the clock through buffers to multiple sinks. physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/clock-tree.svg"><img loading="lazy" src="../icons/backend/clock-tree.svg" alt="Clock tree synthesis"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Clock tree synthesis</h3><p>Distribute the clock through buffers to multiple sinks.</p><p class="downloads"><a href="../icons/backend/clock-tree.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="clock tree clock tree a clock source branches through inserted buffers to multiple sinks in the post-cts design. physical design artifacts cc-by-4.0  def (.def) opendb (.odb)">
+  <a class="preview icon" href="../icons/backend/clock-tree.svg"><img loading="lazy" src="../icons/backend/clock-tree.svg" alt="Clock tree"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>Clock tree</h3><p>A clock source branches through inserted buffers to multiple sinks in the post-CTS design.</p><p class="formats"><strong>Artifact formats</strong> · DEF (.def), OpenDB (.odb)</p><p class="downloads"><a href="../icons/backend/clock-tree.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="routing routing orthogonal interconnect on routing layers and vias. physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/routing.svg"><img loading="lazy" src="../icons/backend/routing.svg" alt="Routing"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Routing</h3><p>Orthogonal interconnect on routing layers and vias.</p><p class="downloads"><a href="../icons/backend/routing.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="routed layout routing orthogonal wires and vias connect standard-cell pins. the physical routing geometry lives in the routed design database. physical design artifacts cc-by-4.0  routed def (.def) opendb (.odb)">
+  <a class="preview icon" href="../icons/backend/routing.svg"><img loading="lazy" src="../icons/backend/routing.svg" alt="Routed layout"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>Routed layout</h3><p>Orthogonal wires and vias connect standard-cell pins. The physical routing geometry lives in the routed design database.</p><p class="formats"><strong>Artifact formats</strong> · Routed DEF (.def), OpenDB (.odb)</p><p class="downloads"><a href="../icons/backend/routing.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="physical verification physical verification design rule checking (drc) and layout versus schematic (lvs). physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/physical-verification.svg"><img loading="lazy" src="../icons/backend/physical-verification.svg" alt="Physical verification"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Physical verification</h3><p>Design rule checking (DRC) and layout versus schematic (LVS).</p><p class="downloads"><a href="../icons/backend/physical-verification.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="drc / lvs results physical verification physical verification reports and violation markers for design rule checking and layout versus schematic. physical design artifacts cc-by-4.0  tool report klayout report database (.lyrdb)">
+  <a class="preview icon" href="../icons/backend/physical-verification.svg"><img loading="lazy" src="../icons/backend/physical-verification.svg" alt="DRC / LVS results"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>DRC / LVS results</h3><p>Physical verification reports and violation markers for design rule checking and layout versus schematic.</p><p class="formats"><strong>Artifact formats</strong> · Tool report, KLayout report database (.lyrdb)</p><p class="downloads"><a href="../icons/backend/physical-verification.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="gdsii layout gds layout illustrative mask geometry and hierarchy. physical design and tape-out cc-by-4.0 ">
+        <article class="card" data-category="backend" data-search="gdsii layout gds layout an exploded view of registered mask layers with distinct planar polygons. physical design artifacts cc-by-4.0  gdsii (.gds) oasis (.oas)">
   <a class="preview icon" href="../icons/backend/gds-layout.svg"><img loading="lazy" src="../icons/backend/gds-layout.svg" alt="GDSII layout"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>GDSII layout</h3><p>Illustrative mask geometry and hierarchy.</p><p class="downloads"><a href="../icons/backend/gds-layout.svg" download>SVG</a></p>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>GDSII layout</h3><p>An exploded view of registered mask layers with distinct planar polygons.</p><p class="formats"><strong>Artifact formats</strong> · GDSII (.gds), OASIS (.oas)</p><p class="downloads"><a href="../icons/backend/gds-layout.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
-        <article class="card" data-category="backend" data-search="tape-out tapeout package signed-off mask data for foundry submission. physical design and tape-out cc-by-4.0 ">
-  <a class="preview icon" href="../icons/backend/tapeout.svg"><img loading="lazy" src="../icons/backend/tapeout.svg" alt="Tape-out"></a>
-  <div class="card-body"><p class="category">Physical design and tape-out</p><h3>Tape-out</h3><p>Package signed-off mask data for foundry submission.</p><p class="downloads"><a href="../icons/backend/tapeout.svg" download>SVG</a></p>
+        <article class="card" data-category="backend" data-search="tape-out package tapeout package signed-off mask data for foundry submission. physical design artifacts cc-by-4.0  foundry-specific delivery package">
+  <a class="preview icon" href="../icons/backend/tapeout.svg"><img loading="lazy" src="../icons/backend/tapeout.svg" alt="Tape-out package"></a>
+  <div class="card-body"><p class="category">Physical design artifacts</p><h3>Tape-out package</h3><p>Package signed-off mask data for foundry submission.</p><p class="formats"><strong>Artifact formats</strong> · Foundry-specific delivery package</p><p class="downloads"><a href="../icons/backend/tapeout.svg" download>SVG</a></p>
     <details><summary>License and credit</summary><p>EDA Figure Library contributors · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p></details></div>
 </article>
         <article class="card" data-category="ai" data-search="ai agent agent a planning or tool-execution agent for a design workflow. ai and optimization cc-by-4.0 ">

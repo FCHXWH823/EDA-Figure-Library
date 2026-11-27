@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title">
-  <title id="title">Specification checklist</title>
-  <path d="M30 11h44l16 16v51H30Z" fill="#2563a6" fill-opacity=".12" stroke="#2563a6" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M74 11v16h16M57 37h22M57 51h22M57 65h22" fill="none" stroke="#2563a6" stroke-width="2" stroke-linecap="round"/>
-  <path d="m39 36 4 4 7-8m-11 18 4 4 7-8m-11 18 4 4 7-8" fill="none" stroke="#168579" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
+  <title id="title">Specification document</title>
+  <desc id="desc">A requirements document with alternate blue and slate lines.</desc>
+  <rect x="15" y="10" width="130" height="96" rx="11" fill="#f0f3f8" stroke="#64748b" stroke-width="3"/>
+  <g fill="none" stroke-width="3.5" stroke-linecap="round">
+    <path d="M31 32h61m-61 25h45m-45 25h55" stroke="#2563eb"/>
+    <path d="M31 44.5h89m-89 25h77" stroke="#64748b"/>
+  </g>
 </svg>

@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title">
-  <title id="title">Register-transfer level code</title>
-  <rect x="11" y="15" width="98" height="60" rx="5" fill="#2563a6" fill-opacity=".12" stroke="#2563a6" stroke-width="2"/>
-  <path d="M11 27h98" stroke="#2563a6" stroke-width="2"/>
-  <g fill="none" stroke="#2563a6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="m41 40-13 11 13 11m38-22 13 11-13 11M64 38 55 64"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
+  <title id="title">SystemVerilog RTL source</title>
+  <desc id="desc">A code document showing a register that samples d on the rising edge of clk.</desc>
+  <rect x="15" y="10" width="130" height="96" rx="11" fill="#f0f3f8" stroke="#64748b" stroke-width="3"/>
+  <g font-family="monospace" font-size="10.5" font-weight="bold">
+    <text x="29" y="35"><tspan fill="#194fb9">always_ff</tspan></text>
+    <text x="29" y="54" fill="#243b57">@(posedge clk)</text>
+    <text x="37" y="73" fill="#243b57">q <tspan fill="#194fb9">&lt;=</tspan> d;</text>
   </g>
-  <circle cx="21" cy="21.5" r="1.6" fill="#168579"/>
-  <circle cx="27" cy="21.5" r="1.6" fill="#7756a5"/>
+  <text x="130" y="93" text-anchor="end" font-family="monospace" font-size="9" font-weight="bold" fill="#52647e">.sv</text>
 </svg>

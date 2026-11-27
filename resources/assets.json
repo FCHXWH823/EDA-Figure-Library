@@ -3,33 +3,36 @@
     {
       "category": "frontend",
       "id": "specification",
-      "title": "Specification",
+      "title": "Specification document",
       "description": "Requirements, interfaces, target PPA and workload assumptions.",
+      "formats": ["Markdown (.md)", "PDF (.pdf)"],
       "file": "icons/frontend/specification.svg"
     },
     {
       "category": "frontend",
       "id": "architecture",
-      "title": "Architecture",
-      "description": "Block hierarchy, interfaces and computational partitions.",
+      "title": "Architecture block diagram",
+      "description": "Block hierarchy and interfaces shown as four connected blocks within a chip boundary.",
+      "formats": ["SVG (.svg)", "PDF (.pdf)"],
       "file": "icons/frontend/architecture.svg"
     },
     {
       "category": "frontend",
       "id": "rtl-code",
-      "title": "RTL design",
-      "description": "HDL source for clocked, register-transfer behavior.",
+      "title": "RTL source",
+      "description": "A SystemVerilog register samples d on the rising clock edge.",
+      "formats": ["SystemVerilog (.sv)", "Verilog (.v)", "VHDL (.vhd)"],
       "file": "icons/frontend/rtl-code.svg"
     },
     {
-      "category": "frontend",
+      "category": "tasks",
       "id": "high-level-synthesis",
       "title": "High-level synthesis",
       "description": "Schedule and bind C/C++ or DSL operations into a datapath that emits RTL.",
       "file": "icons/frontend/high-level-synthesis.svg"
     },
     {
-      "category": "frontend",
+      "category": "tasks",
       "id": "logic-synthesis",
       "title": "Logic synthesis",
       "description": "Optimize Boolean logic and map it to cells from a technology library.",
@@ -39,7 +42,8 @@
       "category": "frontend",
       "id": "logic-netlist",
       "title": "Gate-level netlist",
-      "description": "Show how mapped logic gates are connected.",
+      "description": "Three connected AND gates represent mapped cells and logical nets.",
+      "formats": ["Verilog netlist (.v)"],
       "file": "icons/frontend/logic-netlist.svg"
     },
     {
@@ -47,10 +51,11 @@
       "id": "constraints",
       "title": "Design constraints",
       "description": "Clock, I/O, target and implementation constraints.",
+      "formats": ["Synopsys Design Constraints (.sdc)"],
       "file": "icons/frontend/constraints.svg"
     },
     {
-      "category": "verification",
+      "category": "tasks",
       "id": "functional",
       "title": "Functional verification",
       "description": "Stimulus and response checking around a design under test.",
@@ -61,63 +66,149 @@
       "id": "waveform",
       "title": "Timing waveform",
       "description": "Show signal transitions, clock edges and observed behavior.",
+      "formats": ["Value Change Dump (.vcd)", "Fast Signal Trace (.fst)"],
       "file": "icons/verification/waveform.svg"
     },
     {
-      "category": "verification",
+      "category": "tasks",
       "id": "formal",
       "title": "Formal verification",
       "description": "Properties, equivalence checks, proofs and counterexamples.",
       "file": "icons/verification/formal.svg"
     },
     {
+      "category": "verification",
+      "id": "proof-report",
+      "title": "Formal verification results",
+      "description": "A property report records proven assertions or a counterexample trace.",
+      "formats": ["Tool report", "Counterexample waveform (.vcd)"],
+      "file": "icons/verification/proof-report.svg"
+    },
+    {
       "category": "backend",
       "id": "floorplan",
-      "title": "Floorplanning",
+      "title": "Floorplan",
       "description": "Die and core outlines, macros, I/O and power planning.",
+      "formats": ["DEF (.def)", "OpenDB (.odb)"],
       "file": "icons/backend/floorplan.svg"
     },
     {
       "category": "backend",
       "id": "placement",
-      "title": "Placement",
+      "title": "Placed layout",
       "description": "Standard cells aligned to rows after legalization.",
+      "formats": ["DEF (.def)", "OpenDB (.odb)"],
       "file": "icons/backend/placement.svg"
     },
     {
       "category": "backend",
       "id": "clock-tree",
-      "title": "Clock tree synthesis",
-      "description": "Distribute the clock through buffers to multiple sinks.",
+      "title": "Clock tree",
+      "description": "A clock source branches through inserted buffers to multiple sinks in the post-CTS design.",
+      "formats": ["DEF (.def)", "OpenDB (.odb)"],
       "file": "icons/backend/clock-tree.svg"
     },
     {
       "category": "backend",
       "id": "routing",
-      "title": "Routing",
-      "description": "Orthogonal interconnect on routing layers and vias.",
+      "title": "Routed layout",
+      "description": "Orthogonal wires and vias connect standard-cell pins. The physical routing geometry lives in the routed design database.",
+      "formats": ["Routed DEF (.def)", "OpenDB (.odb)"],
       "file": "icons/backend/routing.svg"
     },
     {
       "category": "backend",
       "id": "physical-verification",
-      "title": "Physical verification",
-      "description": "Design rule checking (DRC) and layout versus schematic (LVS).",
+      "title": "DRC / LVS results",
+      "description": "Physical verification reports and violation markers for design rule checking and layout versus schematic.",
+      "formats": ["Tool report", "KLayout report database (.lyrdb)"],
       "file": "icons/backend/physical-verification.svg"
     },
     {
       "category": "backend",
       "id": "gds-layout",
       "title": "GDSII layout",
-      "description": "Illustrative mask geometry and hierarchy.",
+      "description": "An exploded view of registered mask layers with distinct planar polygons.",
+      "formats": ["GDSII (.gds)", "OASIS (.oas)"],
       "file": "icons/backend/gds-layout.svg"
     },
     {
       "category": "backend",
       "id": "tapeout",
-      "title": "Tape-out",
+      "title": "Tape-out package",
       "description": "Package signed-off mask data for foundry submission.",
+      "formats": ["Foundry-specific delivery package"],
       "file": "icons/backend/tapeout.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-specification",
+      "title": "Write specification",
+      "description": "Turn product goals and workloads into documented requirements.",
+      "file": "icons/tasks/specification.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-architecture",
+      "title": "Define architecture",
+      "description": "Partition the specification into blocks, interfaces and data paths.",
+      "file": "icons/tasks/architecture.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-rtl-design",
+      "title": "RTL design",
+      "description": "Implement the architecture in a hardware description language.",
+      "file": "icons/tasks/rtl-design.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-floorplanning",
+      "title": "Floorplanning",
+      "description": "Establish the die, core, macro locations and I/O plan.",
+      "file": "icons/tasks/floorplanning.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-placement",
+      "title": "Placement",
+      "description": "Place and legalize standard cells on the available rows.",
+      "file": "icons/tasks/placement.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-cts",
+      "title": "Clock tree synthesis",
+      "description": "Build a buffered clock distribution network.",
+      "file": "icons/tasks/clock-tree-synthesis.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-routing",
+      "title": "Routing",
+      "description": "Assign interconnect tracks, metal wires and vias to nets.",
+      "file": "icons/tasks/routing.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-stream-out",
+      "title": "Layout stream-out",
+      "description": "Export the routed design and library geometries as a mask layout database.",
+      "file": "icons/tasks/stream-out.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-physical-verification",
+      "title": "Physical verification",
+      "description": "Check design rules and compare extracted layout connectivity to the reference netlist.",
+      "file": "icons/tasks/physical-verification.svg"
+    },
+    {
+      "category": "tasks",
+      "id": "task-tapeout",
+      "title": "Tape-out",
+      "description": "Submit the signed-off layout and required deliverables to the foundry.",
+      "file": "icons/tasks/tapeout.svg"
     },
     {
       "category": "ai",
