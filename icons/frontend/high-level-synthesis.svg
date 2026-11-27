@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title desc">
+  <title id="title">High-level synthesis</title><desc id="desc">Algorithm blocks transformed into a register-transfer datapath.</desc>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#526579"/></marker></defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <rect x="8" y="16" width="38" height="58" rx="5" fill="#2563a6" fill-opacity=".12" stroke="#2563a6"/>
+    <path d="M17 31h19M17 41h13M17 51h19M17 61h10" stroke="#2563a6"/>
+    <path d="M48 45h17" stroke="#526579" marker-end="url(#arrow)"/>
+    <rect x="68" y="12" width="44" height="18" rx="4" fill="#168579" fill-opacity=".15" stroke="#168579"/>
+    <rect x="68" y="36" width="20" height="18" rx="4" fill="#7756a5" fill-opacity=".15" stroke="#7756a5"/>
+    <rect x="92" y="36" width="20" height="18" rx="4" fill="#7756a5" fill-opacity=".15" stroke="#7756a5"/>
+    <rect x="68" y="60" width="44" height="18" rx="4" fill="#168579" fill-opacity=".15" stroke="#168579"/>
+    <path d="M90 30v6M78 54v6M102 54v6M78 45h14" stroke="#526579"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-stage feedback</title><desc id="desc">Metrics from later EDA stages feed back to earlier decisions.</desc>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#526579"/></marker></defs>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <rect x="8" y="35" width="25" height="21" rx="4" fill="#2563a6" fill-opacity=".14" stroke="#2563a6"/>
+    <rect x="47" y="35" width="25" height="21" rx="4" fill="#7756a5" fill-opacity=".14" stroke="#7756a5"/>
+    <rect x="86" y="35" width="25" height="21" rx="4" fill="#168579" fill-opacity=".14" stroke="#168579"/>
+    <path d="M33 45h12M72 45h12" stroke="#526579" marker-end="url(#arrow)"/>
+    <path d="M99 58v17H20V59" stroke="#526579" marker-end="url(#arrow)"/>
+    <path d="M20 32V16h79v16" stroke="#f59e0b" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+  </g>
+</svg>

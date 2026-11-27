@@ -1,0 +1,18 @@
+\usetikzlibrary{arrows.meta,positioning}
+\definecolor{edaink}{HTML}{13263D}
+\definecolor{edablue}{HTML}{2563A6}
+\definecolor{edateal}{HTML}{16736A}
+\definecolor{edaviolet}{HTML}{7756A5}
+\definecolor{edaamber}{HTML}{B45309}
+\tikzset{
+  edabox/.style={draw, rounded corners=2pt, line width=.7pt,
+    minimum height=9mm, text width=24mm, align=center, inner sep=2pt,
+    text=edaink, font=\sffamily\small},
+  front/.style={edabox, draw=edablue, fill=edablue!8},
+  verify/.style={edabox, draw=edaviolet, fill=edaviolet!8},
+  physical/.style={edabox, draw=edateal, fill=edateal!8},
+  release/.style={edabox, draw=edaamber, fill=edaamber!8},
+  edaflow/.style={-{Latex[length=2mm]}, line width=.7pt, draw=edaink},
+  edafeedback/.style={edaflow, dashed, draw=edaamber},
+  edalabel/.style={font=\sffamily\scriptsize, text=edaink}
+}

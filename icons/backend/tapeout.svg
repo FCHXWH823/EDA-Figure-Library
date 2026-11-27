@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" width="120" height="90" role="img" aria-labelledby="title desc">
+  <title id="title">GDSII tape-out</title><desc id="desc">A verified layout is packaged for foundry submission.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <rect x="13" y="11" width="67" height="67" rx="5" fill="#168579" fill-opacity=".10" stroke="#168579"/>
+    <path d="M20 21h52v12H20zM20 40h18v30H20zM45 40h27v13H45zM45 60h27v10H45z" fill="#168579" fill-opacity=".18" stroke="#168579"/>
+    <path d="M84 28h20v42H84z" fill="#7756a5" fill-opacity=".13" stroke="#7756a5"/>
+    <path d="M89 35h10M89 42h10M89 49h10M89 56h10" stroke="#7756a5"/>
+    <path d="m85 17 6-6 6 6M91 11v14" stroke="#526579"/>
+  </g>
+</svg>

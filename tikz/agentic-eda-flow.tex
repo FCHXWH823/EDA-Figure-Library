@@ -1,0 +1,19 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{eda-style.tex}
+\begin{document}
+\begin{tikzpicture}[node distance=13mm and 9mm]
+  \node[front] (intent) {Design intent};
+  \node[verify, right=of intent] (plan) {Planner and agents};
+  \node[front, right=of plan] (search) {Evolutionary search};
+  \node[front, right=of search] (gpu) {GPU / batch compute};
+  \node[physical, below=of plan] (tools) {RTL-to-signoff\\tools};
+  \node[physical, below=of search] (eval) {Evaluate proofs and PPA};
+  \node[release, below=of gpu] (release) {Human\\release review};
+
+  \foreach \from/\to in {intent/plan,plan/search,search/gpu,plan/tools,tools/eval,eval/release}
+    \draw[edaflow] (\from) -- (\to);
+  \draw[edaflow] (gpu.south west) -- ++(-5mm,0) |- (eval.north east);
+  \draw[edafeedback] (eval.south) -- ++(0,-6mm)
+    -| node[pos=.25,below,edalabel] {cross-stage feedback} (intent.south);
+\end{tikzpicture}
+\end{document}

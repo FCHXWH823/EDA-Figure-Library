@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search editable illustrations for EDA and AI-assisted hardware design.">
+  <title>EDA Figure Library</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell nav">
+      <a class="brand" href="./">EDA Figure Library</a>
+      <nav aria-label="Repository">
+        <a href="https://github.com/FCHXWH823/EDA-Figure-Library">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="heading">
+      <div>
+        <p class="eyebrow">Research graphics for hardware design</p>
+        <h1 id="heading">EDA Figure Library</h1>
+        <p class="lead">Editable figures for digital chip design, from specification and architecture through tape-out and agentic optimization.</p>
+        <p class="tools"><a href="../drawio/eda-shapes.xml" download>Draw.io library</a><a href="https://github.com/FCHXWH823/EDA-Figure-Library/tree/main/tikz">TikZ templates</a></p>
+      </div>
+      <a class="featured" href="../examples/eda-flow.svg">
+        <img src="../examples/eda-flow.svg" alt="Digital ASIC flow, from intent to silicon" width="1500" height="690">
+        <span>Open the complete EDA flow</span>
+      </a>
+    </section>
+    <section aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Visual gallery</h2>
+      <form class="filters" id="filters" hidden role="search">
+        <label>Search assets <input id="query" type="search" placeholder="Try clock tree, GPU or CMOS" aria-controls="gallery"></label>
+        <label>Category <select id="category" aria-controls="gallery">
+          <option value="">All categories</option>
+          @OPTIONS@
+        </select></label>
+        <button type="reset">Clear</button>
+      </form>
+      <p id="result-count" class="result" role="status"></p>
+      <div class="cards" id="gallery">
+        @CARDS@
+      </div>
+    </section>
+  </main>
+  <footer class="shell footer">
+    The original figures are conceptual. Check the credit and license of each third-party asset before reuse.
+  </footer>
+</body>
+</html>
