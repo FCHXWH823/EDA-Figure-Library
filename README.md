@@ -24,35 +24,39 @@ The diagram illustrates how specialized agents can coordinate experiments, evalu
 
 ## Browse by EDA stage
 
-Use the labeled rectangles for **tasks** and the pictograms for **design artifacts**. A task can pass several artifacts to the next stage. The formats below are examples from digital ASIC flows. Click a rectangle or pictogram to open its editable SVG.
+### Front-end design and verification
 
-### Specification, architecture and logic
-
-| EDA task | Typical inputs | Representative output | Artifact preview |
-| --- | --- | --- | :---: |
-| [<img src="icons/tasks/specification.svg" width="192" alt="Write specification">](icons/tasks/specification.svg) | Workloads, requirements, PPA goals | Specification document (`.md`, `.pdf`) | [<img src="icons/frontend/specification.svg" width="110" alt="Specification document">](icons/frontend/specification.svg) |
-| [<img src="icons/tasks/architecture.svg" width="192" alt="Define architecture">](icons/tasks/architecture.svg) | Specification, interface requirements | Architecture block diagram | [<img src="icons/frontend/architecture.svg" width="110" alt="Architecture block diagram">](icons/frontend/architecture.svg) |
-| [<img src="icons/tasks/rtl-design.svg" width="192" alt="RTL design">](icons/tasks/rtl-design.svg) | Architecture, interface and timing requirements | RTL source (`.sv`, `.v`, `.vhd`) | [<img src="icons/frontend/rtl-code.svg" width="110" alt="SystemVerilog RTL source">](icons/frontend/rtl-code.svg) |
-| [<img src="icons/frontend/high-level-synthesis.svg" width="192" alt="High-level synthesis">](icons/frontend/high-level-synthesis.svg) | C, C++ or a domain-specific language and synthesis directives | Generated RTL (`.v`, `.sv`) | [<img src="icons/frontend/rtl-code.svg" width="110" alt="Generated RTL source">](icons/frontend/rtl-code.svg) |
-| [<img src="icons/frontend/logic-synthesis.svg" width="192" alt="Logic synthesis">](icons/frontend/logic-synthesis.svg) | RTL, [design constraints](icons/frontend/constraints.svg) (`.sdc`), cell library (`.lib`) | Gate-level Verilog netlist (`.v`) | [<img src="icons/frontend/logic-netlist.svg" width="110" alt="Connected gates in a gate-level netlist">](icons/frontend/logic-netlist.svg) |
-| [<img src="icons/verification/functional.svg" width="192" alt="Functional verification">](icons/verification/functional.svg) | RTL or netlist, testbench and stimuli | Simulation waveform (`.vcd`, `.fst`) and coverage reports | [<img src="icons/verification/waveform.svg" width="110" alt="Simulation timing waveform">](icons/verification/waveform.svg) |
-| [<img src="icons/verification/formal.svg" width="192" alt="Formal verification">](icons/verification/formal.svg) | RTL or netlist, properties or reference design | Proof report or counterexample trace | [<img src="icons/verification/proof-report.svg" width="110" alt="Formal verification report">](icons/verification/proof-report.svg) |
+<table>
+  <tr>
+    <td width="25%" align="center"><a href="icons/frontend/specification.svg"><img src="icons/frontend/specification.svg" width="120" alt=""><br>Specification</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/architecture.svg"><img src="icons/frontend/architecture.svg" width="120" alt=""><br>Architecture</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/rtl-code.svg"><img src="icons/frontend/rtl-code.svg" width="120" alt=""><br>RTL source</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/constraints.svg"><img src="icons/frontend/constraints.svg" width="120" alt=""><br>Design constraints</a></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><a href="icons/frontend/logic-netlist.svg"><img src="icons/frontend/logic-netlist.svg" width="120" alt=""><br>Gate-level netlist</a></td>
+    <td width="25%" align="center"><a href="icons/verification/waveform.svg"><img src="icons/verification/waveform.svg" width="120" alt=""><br>Timing waveform</a></td>
+    <td width="25%" align="center"><a href="icons/verification/proof-report.svg"><img src="icons/verification/proof-report.svg" width="120" alt=""><br>Formal verification results</a></td>
+  </tr>
+</table>
 
 ### Physical design and signoff
 
-| EDA task | Typical inputs | Representative output | Artifact preview |
-| --- | --- | --- | :---: |
-| [<img src="icons/tasks/floorplanning.svg" width="192" alt="Floorplanning">](icons/tasks/floorplanning.svg) | Mapped netlist, LEF, die and I/O constraints | Floorplan (`.def`, `.odb`) | [<img src="icons/backend/floorplan.svg" width="110" alt="Die with macro regions">](icons/backend/floorplan.svg) |
-| [<img src="icons/tasks/placement.svg" width="192" alt="Placement">](icons/tasks/placement.svg) | Floorplan, mapped cells, constraints | Placed layout (`.def`, `.odb`) | [<img src="icons/backend/placement.svg" width="110" alt="Legalized standard-cell rows">](icons/backend/placement.svg) |
-| [<img src="icons/tasks/clock-tree-synthesis.svg" width="192" alt="Clock tree synthesis">](icons/tasks/clock-tree-synthesis.svg) | Placed design and clock constraints | Post-CTS layout (`.def`, `.odb`) with a buffered clock tree | [<img src="icons/backend/clock-tree.svg" width="110" alt="Buffered clock tree">](icons/backend/clock-tree.svg) |
-| [<img src="icons/tasks/routing.svg" width="192" alt="Routing">](icons/tasks/routing.svg) | Post-CTS design, routing layers and rules | Routed layout (`.def`, `.odb`) | [<img src="icons/backend/routing.svg" width="110" alt="Metal routes and vias connecting standard-cell pins">](icons/backend/routing.svg) |
-| [<img src="icons/tasks/stream-out.svg" width="192" alt="Layout stream-out">](icons/tasks/stream-out.svg) | Routed design, cell and macro geometry, layer mapping | Mask layout (`.gds`, `.oas`) | [<img src="icons/backend/gds-layout.svg" width="110" alt="Layered GDSII mask polygons">](icons/backend/gds-layout.svg) |
-| [<img src="icons/tasks/physical-verification.svg" width="192" alt="Physical verification">](icons/tasks/physical-verification.svg) | Layout, rule decks and reference netlist | DRC/LVS reports and violation markers | [<img src="icons/backend/physical-verification.svg" width="110" alt="DRC and LVS results">](icons/backend/physical-verification.svg) |
-| [<img src="icons/tasks/tapeout.svg" width="192" alt="Tape-out">](icons/tasks/tapeout.svg) | Signed-off mask layout and required reports | Foundry-specific delivery package | [<img src="icons/backend/tapeout.svg" width="110" alt="Tape-out package">](icons/backend/tapeout.svg) |
+<table>
+  <tr>
+    <td width="25%" align="center"><a href="icons/backend/floorplan.svg"><img src="icons/backend/floorplan.svg" width="120" alt=""><br>Floorplan</a></td>
+    <td width="25%" align="center"><a href="icons/backend/placement.svg"><img src="icons/backend/placement.svg" width="120" alt=""><br>Placed layout</a></td>
+    <td width="25%" align="center"><a href="icons/backend/clock-tree.svg"><img src="icons/backend/clock-tree.svg" width="120" alt=""><br>Clock tree</a></td>
+    <td width="25%" align="center"><a href="icons/backend/routing.svg"><img src="icons/backend/routing.svg" width="120" alt=""><br>Routed layout</a></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><a href="icons/backend/physical-verification.svg"><img src="icons/backend/physical-verification.svg" width="120" alt=""><br>DRC / LVS results</a></td>
+    <td width="25%" align="center"><a href="icons/backend/tapeout.svg"><img src="icons/backend/tapeout.svg" width="120" alt=""><br>Tape-out package</a></td>
+    <td width="25%" align="center"><a href="icons/backend/gds-layout.svg"><img src="icons/backend/gds-layout.svg" width="120" alt=""><br>GDSII layout</a></td>
+  </tr>
+</table>
 
-A Verilog **netlist** describes cell instances and which pins share a logical net. Routing adds the physical wire and via geometry to the **routed layout**, typically stored in DEF or OpenDB. Some flows also export an updated netlist after routing, for example when implementation changes cell instances or logical connectivity. The GDSII icon shows separate mask layers as an exploded view of planar polygons. See [OpenLane’s detailed-routing and stream-out documentation](https://openlane2.readthedocs.io/en/latest/reference/step_config_vars.html#detailed-routing).
-
-### AI-assisted hardware design
+## AI-assisted hardware design
 
 [Agent](icons/ai/agent.svg) · [Evolutionary optimization](icons/ai/evolutionary-optimization.svg) · [Design space exploration](icons/ai/design-space.svg) · [GPU](icons/ai/gpu-compute.svg) · [Cross-stage feedback](icons/ai/cross-stage-feedback.svg) · [Feedback loop](icons/ai/feedback.svg) · [PPA](icons/ai/ppa.svg)
 
