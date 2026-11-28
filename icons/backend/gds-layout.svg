@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
-  <title id="title">GDSII mask-layer geometry</title>
+  <title id="title">GDSII layout</title>
   <desc id="desc">An exploded schematic of two registered mask layers with different polygons. GDSII stores layer-tagged planar geometry, not physical thickness.</desc>
   <g stroke-linejoin="round">
     <path d="m14 77 65-28 67 28-65 28Z" fill="#ddf3ee" stroke="#137d73" stroke-width="2.2"/>
