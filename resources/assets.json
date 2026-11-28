@@ -6,7 +6,7 @@
       "title": "Design specification",
       "description": "Design requirements and an embedded architecture diagram in one document.",
       "formats": ["Markdown (.md)", "PDF (.pdf)"],
-      "file": "icons/frontend/specification.svg"
+      "file": "icons/frontend/design-specification.svg"
     },
     {
       "category": "frontend",
