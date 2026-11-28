@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 76" width="280" height="76" role="img" aria-labelledby="title desc">
+  <title id="title">Floorplanning</title>
+  <desc id="desc">Establish the die, core, macro locations and I/O plan.</desc>
+  <rect x="3" y="9" width="274" height="58" rx="8" fill="#EAF1FF" stroke="#4261A3" stroke-width="2.5"/>
+  <text x="140" y="44" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="600" fill="#13263D">Floorplanning</text>
+</svg>

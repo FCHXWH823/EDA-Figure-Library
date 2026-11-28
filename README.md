@@ -2,7 +2,7 @@
 
 Editable illustrations for electronic design automation, digital ASIC design, and AI-assisted hardware research. Build a paper figure, proposal diagram, or lecture slide from transparent SVGs, vector PDFs, native diagrams.net blocks, and LaTeX templates.
 
-[Visual gallery source](docs/index.html) · [Draw.io palette](drawio/eda-shapes.xml) · [TikZ templates](tikz) · [Resource catalog](resources) · [Licenses and credits](LICENSES.md)
+[Search the visual gallery](https://fchxwh823.github.io/EDA-Figure-Library/) · [Draw.io palette](drawio/eda-shapes.xml) · [TikZ templates](tikz) · [Resource catalog](resources) · [Licenses and credits](LICENSES.md)
 
 ## Example figures
 
@@ -24,26 +24,46 @@ The diagram illustrates how specialized agents can coordinate experiments, evalu
 
 ## Browse by EDA stage
 
-| Preview | Stage | Editable SVGs |
-| :---: | --- | --- |
-| <img src="icons/frontend/architecture.svg" width="85" alt="Architecture blocks"> | Specification and architecture | [Specification](icons/frontend/specification.svg), [architecture](icons/frontend/architecture.svg), [constraints](icons/frontend/constraints.svg) |
-| <img src="icons/frontend/rtl-code.svg" width="85" alt="RTL code"> | RTL design | [RTL code](icons/frontend/rtl-code.svg) |
-| <img src="icons/frontend/high-level-synthesis.svg" width="85" alt="Algorithm to datapath"> | High-level synthesis | [HLS](icons/frontend/high-level-synthesis.svg) |
-| <img src="icons/frontend/logic-synthesis.svg" width="85" alt="Mapped logic"> | Logic synthesis | [Logic synthesis](icons/frontend/logic-synthesis.svg), [gate netlist](icons/frontend/logic-netlist.svg) |
-| <img src="icons/verification/functional.svg" width="85" alt="Testbench and check"> | Functional and formal verification | [Functional test](icons/verification/functional.svg), [waveform](icons/verification/waveform.svg), [formal](icons/verification/formal.svg) |
-| <img src="icons/backend/floorplan.svg" width="85" alt="Chip floorplan"> | Floorplanning | [Floorplan](icons/backend/floorplan.svg) |
-| <img src="icons/backend/placement.svg" width="85" alt="Placed cells"> | Placement | [Placement](icons/backend/placement.svg) |
-| <img src="icons/backend/clock-tree.svg" width="85" alt="Clock tree"> | Clock tree synthesis | [Clock tree](icons/backend/clock-tree.svg) |
-| <img src="icons/backend/routing.svg" width="85" alt="Routed wires"> | Routing | [Routing](icons/backend/routing.svg) |
-| <img src="icons/backend/physical-verification.svg" width="85" alt="Physical checks"> | Physical verification | [Physical verification](icons/backend/physical-verification.svg) |
-| <img src="icons/backend/tapeout.svg" width="85" alt="Mask data delivery"> | GDSII and tape-out | [GDS layout](icons/backend/gds-layout.svg), [tape-out](icons/backend/tapeout.svg) |
-| <img src="icons/ai/gpu-compute.svg" width="85" alt="Parallel compute"> | AI-assisted hardware design | [Agent](icons/ai/agent.svg), [evolutionary optimization](icons/ai/evolutionary-optimization.svg), [design space](icons/ai/design-space.svg), [GPU](icons/ai/gpu-compute.svg), [cross-stage feedback](icons/ai/cross-stage-feedback.svg), [loop](icons/ai/feedback.svg), [PPA](icons/ai/ppa.svg) |
+### Front-end design and verification
+
+<table>
+  <tr>
+    <td width="25%" align="center"><a href="icons/frontend/design-specification.svg"><img src="icons/frontend/design-specification.svg" width="120" alt=""><br>Design specification</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/rtl-code.svg"><img src="icons/frontend/rtl-code.svg" width="120" alt=""><br>RTL source</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/constraints.svg"><img src="icons/frontend/constraints.svg" width="120" alt=""><br>Design constraints</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/logic-netlist.svg"><img src="icons/frontend/logic-netlist.svg" width="120" alt=""><br>Gate-level netlist</a></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><a href="icons/verification/waveform.svg"><img src="icons/verification/waveform.svg" width="120" alt=""><br>Timing waveform</a></td>
+    <td width="25%" align="center"><a href="icons/verification/proof-report.svg"><img src="icons/verification/proof-report.svg" width="120" alt=""><br>Formal verification results</a></td>
+  </tr>
+</table>
+
+### Physical design and signoff
+
+<table>
+  <tr>
+    <td width="25%" align="center"><a href="icons/backend/floorplan.svg"><img src="icons/backend/floorplan.svg" width="120" alt=""><br>Floorplan</a></td>
+    <td width="25%" align="center"><a href="icons/backend/placement.svg"><img src="icons/backend/placement.svg" width="120" alt=""><br>Placed layout</a></td>
+    <td width="25%" align="center"><a href="icons/backend/clock-tree.svg"><img src="icons/backend/clock-tree.svg" width="120" alt=""><br>Clock tree</a></td>
+    <td width="25%" align="center"><a href="icons/backend/routing.svg"><img src="icons/backend/routing.svg" width="120" alt=""><br>Routed layout</a></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center"><a href="icons/backend/physical-verification.svg"><img src="icons/backend/physical-verification.svg" width="120" alt=""><br>DRC / LVS results</a></td>
+    <td width="25%" align="center"><a href="icons/backend/tapeout.svg"><img src="icons/backend/tapeout.svg" width="120" alt=""><br>Tape-out package</a></td>
+    <td width="25%" align="center"><a href="icons/backend/gds-layout.svg"><img src="icons/backend/gds-layout.svg" width="120" alt=""><br>GDSII layout</a></td>
+  </tr>
+</table>
+
+## AI-assisted hardware design
+
+[Agent](icons/ai/agent.svg) · [Evolutionary optimization](icons/ai/evolutionary-optimization.svg) · [Design space exploration](icons/ai/design-space.svg) · [GPU](icons/ai/gpu-compute.svg) · [Cross-stage feedback](icons/ai/cross-stage-feedback.svg) · [Feedback loop](icons/ai/feedback.svg) · [PPA](icons/ai/ppa.svg)
 
 ## How to use the library
 
-- **Browse and download.** Open [docs/index.html](docs/index.html) in a browser after cloning or downloading the repository. Search by title, description, source credit or license, or filter by category. A [GitHub Pages workflow](.github/workflows/pages.yml) is included. Select **Settings → Pages → GitHub Actions** as the publishing source to enable deployment.
+- **Browse and download.** Open the [published gallery](https://fchxwh823.github.io/EDA-Figure-Library/) or open [docs/index.html](docs/index.html) locally after downloading the repository. Search by title, description, artifact format, source credit or license, or filter by category.
 - **Edit vectors.** Open the SVG directly in Inkscape or another vector editor. Keep text editable while composing. Use a light canvas to preserve contrast, and preview at the final print size.
-- **Draw diagrams.** Load the [Draw.io palette](drawio/README.md) for 26 native elements, including editable labeled blocks and connectors. Import the SVG icons separately for detailed artwork.
+- **Draw diagrams.** Load the [Draw.io palette](drawio/README.md) for editable task rectangles, artifact blocks and connectors. Import the SVG icons separately for detailed artwork.
 - **Typeset figures.** Download a vector PDF and use `\includegraphics[width=\linewidth]{eda-flow.pdf}`, or edit the [standalone TikZ templates](tikz/README.md) for document-matched typography.
 - **Credit the source.** Check the [license guide](LICENSES.md) for original figure attribution and the [manifest](resources/assets.json) for each third-party asset.
 
