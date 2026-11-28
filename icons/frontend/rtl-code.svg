@@ -2,10 +2,9 @@
   <title id="title">SystemVerilog RTL source</title>
   <desc id="desc">A code document showing a register that samples d on the rising edge of clk.</desc>
   <rect x="15" y="10" width="130" height="96" rx="11" fill="#f0f3f8" stroke="#64748b" stroke-width="3"/>
-  <g font-family="monospace" font-size="10.5" font-weight="bold">
-    <text x="29" y="35"><tspan fill="#194fb9">always_ff</tspan></text>
-    <text x="29" y="54" fill="#243b57">@(posedge clk)</text>
-    <text x="37" y="73" fill="#243b57">q <tspan fill="#194fb9">&lt;=</tspan> d;</text>
+  <g font-family="monospace" font-size="14" font-weight="bold">
+    <text x="25" y="38"><tspan fill="#194fb9">always_ff</tspan></text>
+    <text x="25" y="62" fill="#243b57">@(posedge clk)</text>
+    <text x="34" y="86" fill="#243b57">q <tspan fill="#194fb9">&lt;=</tspan> d;</text>
   </g>
-  <text x="130" y="93" text-anchor="end" font-family="monospace" font-size="9" font-weight="bold" fill="#52647e">.sv</text>
 </svg>
