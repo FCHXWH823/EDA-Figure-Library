@@ -1,9 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 116" width="160" height="116" role="img" aria-labelledby="title desc">
-  <title id="title">Specification document</title>
-  <desc id="desc">A requirements document with alternate blue and slate lines.</desc>
+  <title id="title">Design specification</title>
+  <desc id="desc">A requirements document with text beside an embedded four-block chip architecture.</desc>
   <rect x="15" y="10" width="130" height="96" rx="11" fill="#f0f3f8" stroke="#64748b" stroke-width="3"/>
   <g fill="none" stroke-width="3.5" stroke-linecap="round">
-    <path d="M31 32h61m-61 25h45m-45 25h55" stroke="#2563eb"/>
-    <path d="M31 44.5h89m-89 25h77" stroke="#64748b"/>
+    <path d="M29 35h33m-33 23h32m-32 23h35" stroke="#2563eb"/>
+    <path d="M29 46.5h41M29 69.5h37" stroke="#64748b"/>
+  </g>
+  <g transform="translate(72 31) scale(.46)">
+    <g fill="none" stroke="#64748b" stroke-width="3.6">
+      <path d="M49 7v12m16-12v12m15-12v12m15-12v12m16-12v12M49 97v12m16-12v12m15-12v12m15-12v12m16-12v12"/>
+      <path d="M19 35h14m-14 15h14m-14 16h14m-14 15h14m94-46h14m-14 15h14m-14 16h14m-14 15h14"/>
+    </g>
+    <rect x="33" y="19" width="94" height="78" rx="8" fill="#edf2ff" stroke="#2563eb" stroke-width="4.2"/>
+    <g stroke="#4269c5" stroke-width="1.8">
+      <rect x="44" y="30" width="31" height="23" rx="2" fill="#d8e3ff"/>
+      <rect x="85" y="30" width="31" height="23" rx="2" fill="#bed0fb"/>
+      <rect x="44" y="63" width="31" height="23" rx="2" fill="#abc2f8"/>
+      <rect x="85" y="63" width="31" height="23" rx="2" fill="#8eaff3"/>
+    </g>
+    <path d="M75 41.5h10m-10 33h10M59.5 53v10m41-10v10" fill="none" stroke="#4269c5" stroke-width="2.3"/>
   </g>
 </svg>
