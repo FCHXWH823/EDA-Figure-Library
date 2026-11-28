@@ -28,7 +28,7 @@ The diagram illustrates how specialized agents can coordinate experiments, evalu
 
 <table>
   <tr>
-    <td width="25%" align="center"><a href="icons/frontend/specification.svg"><img src="icons/frontend/specification.svg" width="120" alt=""><br>Design specification</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/design-specification.svg"><img src="icons/frontend/design-specification.svg" width="120" alt=""><br>Design specification</a></td>
     <td width="25%" align="center"><a href="icons/frontend/rtl-code.svg"><img src="icons/frontend/rtl-code.svg" width="120" alt=""><br>RTL source</a></td>
     <td width="25%" align="center"><a href="icons/frontend/constraints.svg"><img src="icons/frontend/constraints.svg" width="120" alt=""><br>Design constraints</a></td>
     <td width="25%" align="center"><a href="icons/frontend/logic-netlist.svg"><img src="icons/frontend/logic-netlist.svg" width="120" alt=""><br>Gate-level netlist</a></td>
