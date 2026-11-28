@@ -3,8 +3,8 @@
     {
       "category": "frontend",
       "id": "specification",
-      "title": "Specification document",
-      "description": "Requirements, interfaces, target PPA and workload assumptions.",
+      "title": "Design specification",
+      "description": "Design requirements and an embedded architecture diagram in one document.",
       "formats": ["Markdown (.md)", "PDF (.pdf)"],
       "file": "icons/frontend/specification.svg"
     },
