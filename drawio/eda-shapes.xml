@@ -1,11 +1,11 @@
 <mxlibrary>
 [
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Specification document\" style=\"shape=document;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Design specification\" style=\"shape=document;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 180,
     "h": 72,
     "aspect": "fixed",
-    "title": "Specification document"
+    "title": "Design specification"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\" /&gt;&lt;mxCell id=\"1\" parent=\"0\" /&gt;&lt;mxCell id=\"2\" value=\"Architecture block diagram\" style=\"shape=swimlane;html=0;whiteSpace=wrap;strokeWidth=2;fillColor=#EAF3FC;strokeColor=#2563A6;fontColor=#13263D;fontSize=13;fontStyle=1;spacing=8;perimeterSpacing=1;startSize=28;swimlaneFillColor=#FFFFFF;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry as=\"geometry\" x=\"0\" y=\"0\" width=\"180\" height=\"72\" /&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
