@@ -24,18 +24,20 @@ The diagram illustrates how specialized agents can coordinate experiments, evalu
 
 ## Browse by EDA stage
 
+<!-- Pin the thumbnail URLs to the artwork revision to avoid stale GitHub previews. Update the revision when a preview changes. -->
+
 ### Front-end design and verification
 
 <table>
   <tr>
-    <td width="25%" align="center"><a href="icons/frontend/design-specification.svg"><img src="icons/frontend/design-specification.svg" width="120" alt=""><br>Design specification</a></td>
-    <td width="25%" align="center"><a href="icons/frontend/rtl-code.svg"><img src="icons/frontend/rtl-code.svg" width="120" alt=""><br>RTL source</a></td>
-    <td width="25%" align="center"><a href="icons/frontend/constraints.svg"><img src="icons/frontend/constraints.svg" width="120" alt=""><br>Design constraints</a></td>
-    <td width="25%" align="center"><a href="icons/frontend/logic-netlist.svg"><img src="icons/frontend/logic-netlist.svg" width="120" alt=""><br>Gate-level netlist</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/design-specification.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/frontend/design-specification.svg" width="120" alt=""><br>Design specification</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/rtl-code.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/frontend/rtl-code.svg" width="120" alt=""><br>RTL source</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/constraints.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/frontend/constraints.svg" width="120" alt=""><br>Design constraints</a></td>
+    <td width="25%" align="center"><a href="icons/frontend/logic-netlist.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/frontend/logic-netlist.svg" width="120" alt=""><br>Gate-level netlist</a></td>
   </tr>
   <tr>
-    <td width="25%" align="center"><a href="icons/verification/waveform.svg"><img src="icons/verification/waveform.svg" width="120" alt=""><br>Timing waveform</a></td>
-    <td width="25%" align="center"><a href="icons/verification/proof-report.svg"><img src="icons/verification/proof-report.svg" width="120" alt=""><br>Formal verification results</a></td>
+    <td width="25%" align="center"><a href="icons/verification/waveform.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/verification/waveform.svg" width="120" alt=""><br>Timing waveform</a></td>
+    <td width="25%" align="center"><a href="icons/verification/proof-report.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/verification/proof-report.svg" width="120" alt=""><br>Formal verification results</a></td>
   </tr>
 </table>
 
@@ -43,15 +45,15 @@ The diagram illustrates how specialized agents can coordinate experiments, evalu
 
 <table>
   <tr>
-    <td width="25%" align="center"><a href="icons/backend/floorplan.svg"><img src="icons/backend/floorplan.svg" width="120" alt=""><br>Floorplan</a></td>
-    <td width="25%" align="center"><a href="icons/backend/placement.svg"><img src="icons/backend/placement.svg" width="120" alt=""><br>Placed layout</a></td>
-    <td width="25%" align="center"><a href="icons/backend/clock-tree.svg"><img src="icons/backend/clock-tree.svg" width="120" alt=""><br>Clock tree</a></td>
-    <td width="25%" align="center"><a href="icons/backend/routing.svg"><img src="icons/backend/routing.svg" width="120" alt=""><br>Routed layout</a></td>
+    <td width="25%" align="center"><a href="icons/backend/floorplan.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/floorplan.svg" width="120" alt=""><br>Floorplan</a></td>
+    <td width="25%" align="center"><a href="icons/backend/placement.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/placement.svg" width="120" alt=""><br>Placed layout</a></td>
+    <td width="25%" align="center"><a href="icons/backend/clock-tree.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/clock-tree.svg" width="120" alt=""><br>Clock tree</a></td>
+    <td width="25%" align="center"><a href="icons/backend/routing.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/routing.svg" width="120" alt=""><br>Routed layout</a></td>
   </tr>
   <tr>
-    <td width="25%" align="center"><a href="icons/backend/physical-verification.svg"><img src="icons/backend/physical-verification.svg" width="120" alt=""><br>DRC / LVS results</a></td>
-    <td width="25%" align="center"><a href="icons/backend/tapeout.svg"><img src="icons/backend/tapeout.svg" width="120" alt=""><br>Tape-out package</a></td>
-    <td width="25%" align="center"><a href="icons/backend/gds-layout.svg"><img src="icons/backend/gds-layout.svg" width="120" alt=""><br>GDSII layout</a></td>
+    <td width="25%" align="center"><a href="icons/backend/physical-verification.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/physical-verification.svg" width="120" alt=""><br>DRC / LVS results</a></td>
+    <td width="25%" align="center"><a href="icons/backend/tapeout.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/tapeout.svg" width="120" alt=""><br>Tape-out package</a></td>
+    <td width="25%" align="center"><a href="icons/backend/gds-layout.svg"><img src="https://raw.githubusercontent.com/FCHXWH823/EDA-Figure-Library/33dba4b40e484d7fb9cc7f73c9bac2484c340e3b/icons/backend/gds-layout.svg" width="120" alt=""><br>GDSII layout</a></td>
   </tr>
 </table>
 
